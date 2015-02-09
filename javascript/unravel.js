@@ -148,7 +148,7 @@ $(document).on('click', "a.milestone-link", function (event) {
       var doc = $('<article/>').attr('id', id).attr('class', 'supporting-doc');
       var imageNote = $('<div class="image note"/>')
         .appendTo(doc)
-        .append($('<img/>').attr('src', metadata.image || ('images/' + milestone + '/' + path.replace('.html', '.png'))));
+        .append($('<img/>').attr('src', metadata.image || ('images/generic/' + path.split('/')[0] + '.png')));
       var nav = $('<nav class="episode-guide"/>')
         .appendTo(doc)
         .append($("<h2/>").text('As of'))
