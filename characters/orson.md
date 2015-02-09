@@ -8,6 +8,8 @@ Orson is a freshman at Cal, and a Nibelung Orphan who has the power to cloud men
 
 His adopted father is the millionaire Marcus Krieg, who seems rather disappointed in his son.
 
+He was once [attacked][s01e01] by Jonathan Struthers, apparently because of their shared history in the Nibelung system, but Struthers' true motives– and his connection with Sam– remain murky.
+
 ## Drives
 
 * d4 **Duty** Character is doing what you don't want to but know you should do
