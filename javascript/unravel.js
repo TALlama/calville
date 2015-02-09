@@ -14,7 +14,7 @@ function getFileAtMilestone(path, milestone) {
     milestone = atMilestone.see;
     atMilestone = pathData[milestone];
   }
-  return $.Deferred().resolve(atMilestone.data, atMilestone.metadata, milestone);
+  return $.Deferred().resolve(atMilestone.data, atMilestone.metadata, milestone, pathData);
 };
 
 function showEpisode(path, milestone) {
@@ -30,7 +30,54 @@ function showEpisode(path, milestone) {
   });
 };
 
-function showArticle(doc, pinnedTo, options) {
+function showArticle(path, milestone, pinnedTo) {
+  var id = path.replace(/[.].*?$/, '').replace(/[^a-z0-9-]+/ig, '-');
+  var doc = $('#' + id);
+  
+  if (doc.length == 0) {
+    getFileAtMilestone(path, milestone).then(function(data, metadata, milestone, pathData) {
+      var doc = $('<article/>').attr('id', id).attr('class', 'supporting-doc').attr('data-path', path);
+      var imageNote = $('<div class="image note"/>')
+        .appendTo(doc)
+        .append($('<img/>').attr('src', metadata.image || ('images/generic/' + path.split('/')[0] + '.png')));
+      var nav = $('<nav class="episode-guide"/>')
+        .appendTo(doc)
+        .append($("<h2/>").text('As of'));
+      Nav.setVersions(nav, pathData, milestone);
+      
+      showArticle.setBody(doc, data, metadata);
+      
+      animateArticle(doc, pinnedTo);
+    });
+  } else {
+    animateArticle(doc, pinnedTo);
+  }
+};
+showArticle.setBody = function(doc, data, metadata) {
+  var body = $('<div class="body"/>')
+    .append($("<h2 class='title'/>").text(metadata.title))
+    .append($("<dl class='info'/>"))
+    .append(data);
+  
+  var info = function (key, value) {
+    if (!value) return;
+    
+    var dl = body.find('dl.info');
+    dl.append($('<dt/>').text(key)).append($('<dd/>').text(value));
+  }
+  info('Status', metadata.status);
+  info('Actor', metadata.actor);
+  info('Player', metadata.player);
+  
+  var oldBody = doc.find('.body');
+  if (oldBody.length) {
+    oldBody.replaceWith(body);
+  } else {
+    body.appendTo(doc);
+  }
+};
+
+function animateArticle(doc, pinnedTo, options) {
   options = options || {};
   var keepRotation = options.keepRotation === true;
   var keepStackPositions = options.keepStackPositions === true;
@@ -80,35 +127,37 @@ var Nav = {
     li.appendTo(seasons);
     return li;
   },
-  addEpisode: function(nav, season, episode, path, milestone) {
+  addEpisode: function(nav, season, episode) {
     var seasonEl = Nav.addSeason(nav, season);
     var li = seasonEl.find('li.episode[data-episode=' + episode + ']');
     if (li.length) return li;
     
     var li = $('<li class="episode"/>')
       .attr('data-season', season)
-      .attr('data-episode', episode)
-      .attr('data-path', path);
+      .attr('data-episode', episode);
     $('<h3/>')
       .append($('<span class="what"/>').text('e'))
       .append($('<span class="number"/>').text(episode))
       .appendTo(li);
     li.appendTo(seasonEl.find('ol.episodes'));
-    li.click(function (event) {
-      showEpisode(path, milestone);
-    });
     return li;
   },
   setCurrent: function(nav, season, episode) {
     nav.find('.current').removeClass('current');
     
-    var epMatch = season.match(Nav.episodeRegex);
+    var epMatch = season.match(/s(\d+)e(\d+)/);
     if (epMatch) {
       season = epMatch[1];
       episode = epMatch[2];
     }
     
-    nav.find('li[data-season=' + season + '] li[data-episode=' + episode + ']').addClass('current');
+    var li = nav.find('li[data-season=' + season + '] li[data-episode=' + episode + ']');
+    var see = li.attr('data-see-version');
+    if (see) {
+      Nav.setCurrent(nav, see);
+    } else {
+      li.addClass('current');
+    }
   },
   episodeRegex: /episodes\/s(\d\d)e(\d\d)/,
   setMilestones: function(nav, milestones) {
@@ -127,11 +176,38 @@ var Nav = {
   
     episodes.forEach(function (ep) {
       var match = ep.path.match(Nav.episodeRegex);
-      Nav.addEpisode(nav, match[1], match[2], ep.path, ep.milestone);
+      var li = Nav.addEpisode(nav, match[1], match[2])
+        .attr('data-path', ep.path)
+        .attr('data-milestone', ep.milestone)
+        .click(function (event) { showEpisode(ep.path, ep.milestone); });
     });
     
     if (nav.attr('id') == 'global-nav') {showEpisode(episodes[0].path, episodes[0].milestone);}
-  }
+  },
+  setVersions: function(nav, versions, currentVersion) {
+    versions = versions || {};
+    var versionNames = $.map(versions, function(val,key) {return key}).sort(function (a,b) {return a > b ? -1 : 1});
+    nav.data('versions', versionNames);
+    nav.data('versionInfo', versions);
+    
+    $.each(versionNames, function() {
+      var version = this;
+      var versionInfo = versions[version];
+      var match = version.match(/^s(\d+)e(\d+)$/);
+      var li = Nav.addEpisode(nav, match[1], match[2])
+        .attr('data-version', version)
+        .attr('data-see-version', versionInfo.see)
+        .click(function (event) {
+          var doc = $(event.target).closest('.supporting-doc');
+          showArticle.setBody(doc, versionInfo.data, versionInfo.metadata);
+          Nav.setCurrent(nav, match[1], match[2]);
+        });
+    });
+    
+    Nav.setCurrent(nav, currentVersion || versionNames[0]);
+    
+    return nav;
+  },
 };
 
 $(document).on('click', "a.milestone-link", function (event) {
@@ -140,40 +216,10 @@ $(document).on('click', "a.milestone-link", function (event) {
   var $this = $(this);
   var href = $this.attr('href');
   var path = href.replace(/^:milestone:\//, '');
-  var id = path.replace(/[.].*?$/, '').replace(/[^a-z0-9-]+/ig, '-');
-  var doc = $('#' + id);
-  
-  if (doc.length == 0) {
-    getFileAtMilestone(path).then(function(data, metadata, milestone) {
-      var doc = $('<article/>').attr('id', id).attr('class', 'supporting-doc');
-      var imageNote = $('<div class="image note"/>')
-        .appendTo(doc)
-        .append($('<img/>').attr('src', metadata.image || ('images/generic/' + path.split('/')[0] + '.png')));
-      var nav = $('<nav class="episode-guide"/>')
-        .appendTo(doc)
-        .append($("<h2/>").text('As of'))
-        .append($("<ol class='seasons'><li><h2><span class='what'>s</span><span class='number'>1</span></h2><ol class='episodes'><li class='current'><h3><span class='what'>e</span><span class='number'>1</span></h3></li></ol></li></ol>"));
-      var body = $('<div class="body"/>')
-        .appendTo(doc)
-        .append($("<h2 class='title'/>"))
-        .append($("<dl class='info'/>"))
-        .append(data);
-      
-      var info = function (key, value) {
-        if (!value) return;
-        
-        var dl = body.find('dl.info');
-        dl.append($('<dt/>').text(key)).append($('<dd/>').text(value));
-      }
-      doc.find('h2.title').text(metadata.title);
-      info('Status', metadata.status);
-      info('Actor', metadata.actor);
-      info('Player', metadata.player);
-      
-      showArticle(doc, $this);
-    });
+  if (/episodes\//.test(path)) {
+    showEpisode(path);
   } else {
-    showArticle(doc, $this);
+    showArticle(path, null, $this);
   }
 });
 
@@ -185,7 +231,7 @@ $(window).on('resize', function () {
   $('article.supporting-doc').each(function () {
     var $this = $(this);
     var pinnedTo = $this.data('pinned-to');
-    showArticle($this, pinnedTo, {keepRotation: true, keepStackPositions: true});
+    animateArticle($this, pinnedTo, {keepRotation: true, keepStackPositions: true});
   });
 });
 

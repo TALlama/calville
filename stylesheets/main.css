@@ -52,6 +52,10 @@ nav li.current {
   color: white;
 }
 
+nav li[data-see-version] {
+  display: none;
+}
+
 nav li h2, nav li h3 {
   margin: 0;
   padding: 0;
