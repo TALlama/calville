@@ -77,6 +77,24 @@ article.episode {
   padding: 0 1em 0 3em;
 }
 
+article.episode .info h1 {
+  margin-bottom: 0;
+}
+
+article.episode .info dl {
+  margin-top: 0;
+  font-size: 80%;
+}
+
+article.episode .info dl dt {
+  display: inline;
+}
+
+article.episode .info dl dd {
+  display: inline;
+  margin: 0 1em 0 .3em;
+}
+
 article.episode p.action > i {
   font-family: 'Amatic SC', cursive;
   font-size: 140%;
@@ -166,6 +184,20 @@ article.episode p.action > i {
   width: 70%;
   margin-left: 0;
   text-decoration: underline;
+}
+
+body > footer {
+  float: left;
+  opacity: .6;
+  margin: 3em 0 1em 3em;
+}
+
+body > footer:hover {
+  opacity: 1;
+}
+
+body > footer .license {
+  font-size: 80%;
 }
 
 /* From https://gist.github.com/VadimYushchenko/3100662 */
