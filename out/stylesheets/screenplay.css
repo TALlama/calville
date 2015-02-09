@@ -1,0 +1,179 @@
+/* These control where page-breaks can and cannot happen */
+.screenplay p {
+orphans: 2;
+widows: 2;
+}
+.screenplay dl {
+page-break-inside:avoid;
+}
+.screenplay dt, .screenplay h2, .screenplay h5 {
+page-break-after: avoid;
+}
+.screenplay dd.parenthetical {
+orphans: 3;
+widows: 3;
+page-break-before: avoid;
+page-break-after: avoid;
+}
+.screenplay dd {
+page-break-before:avoid;
+}
+.screenplay div.page-break {
+page-break-after:always;
+}
+.screenplay h3 {
+page-break-before: avoid;
+}
+/* by default Prince bookmarks all headings, no thanks */
+.screenplay h3, .screenplay h4, .screenplay h5, .screenplay h6 {
+prince-bookmark-level: none;
+}
+
+/* ---------- COMMON LAYOUT ---------- */
+
+.screenplay {
+font-family: "Courier Prime", courier;
+font-size: 12pt;
+line-height: 1;
+max-width: 6in;
+margin:0 auto;
+}
+.screenplay p.center {
+text-align:center;
+margin-left:0;
+width:100%;
+}
+.screenplay p {
+margin-top: 12pt;
+margin-bottom: 12pt;
+margin-left: 0;
+padding-right: 5%;
+white-space: pre-wrap;
+}
+
+/*Character Names*/
+
+.screenplay dt {
+font-weight: normal;
+margin-top: 1em;
+margin-left: 33%;
+padding-right: 5%;
+}
+
+/*Parentheticals*/
+
+.screenplay dd.parenthetical {
+margin-left: 25%;
+text-indent: -2%;
+width: 33%;
+padding-right: 45%;
+}
+
+/*Dialogue*/
+
+.screenplay dd {
+margin: 0;
+margin-left: 16%;
+width: 58%;
+padding-right: 30%;
+line-height: inherit;
+white-space: pre-wrap;
+}
+
+/* Dual-Dialogue-blocks */
+
+.screenplay div.dialogue_wrapper {
+overflow: auto;
+width: 100%;
+}
+
+.screenplay dl.dual {
+width: 48%;
+}
+
+.screenplay dl.dual dt, .screenplay dl.dual dd {
+margin-left:0;
+width: 41%;
+padding-right: 5%;
+}
+
+.screenplay dl.dual.first {
+float: left;
+margin-top: -12pt;
+}
+
+.screenplay dl.dual.second {
+margin-right: 0;
+margin-left: auto;
+}
+
+.screenplay dl.dual dt {
+text-align: center;
+}
+
+.screenplay dl.dual dd.parenthetical {
+width: 35%;
+margin-left: 5%;
+}
+
+/* Lyrics */
+.screenplay span.lyric {
+font-style: italic;
+}
+
+.screenplay span.lyric i {
+font-style: normal;
+}
+
+
+/* Sluglines and Transitions */
+
+.screenplay h1,.screenplay h2,.screenplay h3,.screenplay h4,.screenplay h5,.screenplay h6 {
+font-weight: normal;
+font-size: 12pt;
+margin-top: 1em;
+margin-bottom: 1em;
+padding-right: 5%;
+text-transform: uppercase;
+}
+
+/* Full Sluglines */
+
+.screenplay h2 {
+width: inherit;
+margin-top: 1em;
+margin-bottom: 12pt;
+margin-left: 0;
+text-decoration: none;
+font-weight: bold;
+}
+
+/* Right Transitions */
+
+.screenplay h3 {
+margin-left: 66%;
+width: 33%;
+}
+
+/* Left Transitions */
+
+.screenplay h4 {
+
+}
+
+/* Goldman Sluglines */
+
+.screenplay h5 {
+margin-top: 1em;
+font-weight: bold;
+text-decoration: none;
+}
+
+.screenplay span.underline {
+text-decoration:underline;
+}
+.screenplay .comment {
+display:none
+}
+
+.screenplay .revised { background:rgba(255, 255, 0, 0.2); }
