@@ -171,8 +171,8 @@ var Nav = {
         return {path: path, milestone: milestone.name};
       }));
     }, []).filter(function (item, ix, eps) {
-      return eps.indexOf(item) === ix;
-    }).sort();
+      return eps.findIndex(function(i) { return i.path == item.path}) === ix;
+    }).sort().reverse();
   
     episodes.forEach(function (ep) {
       var match = ep.path.match(Nav.episodeRegex);
