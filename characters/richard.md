@@ -7,7 +7,7 @@ player: Andrew Ardisone
 
 Richard is an undercover FBI agent on the lookout for metahumans, but he has yet to find any.
 
-He used to date Bao, but they broke up some time ago, much to his consternation. His twin sister Sam Smith works for Marcus Kreig.
+He used to date Bao, but they [broke up][s01e02] some time ago, much to his consternation. His twin sister Sam Smith works for Marcus Kreig.
 
 ## Drives
 
@@ -20,7 +20,7 @@ He used to date Bao, but they broke up some time ago, much to his consternation.
 
 ## Relationships
 
-* d10 I want the best for **Chava**
+* d10 **Chava** is as stubborn as a mule
 * d8 **Orson** is shrouded in his father's shadow
 * d10 **Sam** is a lost soul
 * d8 **Bao** is the one that got away

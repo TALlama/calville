@@ -4,7 +4,7 @@ status: Lead
 actor: DJ Qualls  
 player: Morgan Stites  
 
-Orson is a freshman at Cal, and a Nibelung Orphan who has the power to cloud mens' minds and make himself invisible, which he does so effortlessly that many people never notice him in the first place.
+Orson is a freshman at Cal, and a Nibelung Orphan who has the power to cloud mens' minds and make himself invisible, which he does so effortlessly that many people never notice him in the first place. He is somewhat concerned that his continued use of his powers is changing him, as he often later [regrets][s01e02] the actions he takes while invisible.
 
 His adopted father is the millionaire Marcus Krieg, who seems rather disappointed in his son.
 
@@ -16,7 +16,7 @@ He was once [attacked][s01e01] by Jonathan Struthers, apparently because of thei
 * d4 **Glory** I am a fly on the wall
 * d10 **Justice** The weed of crime bears bitter fruit
 * d4 **Love** Why does everybody want to kick my ass?
-* d6 **Power** Phenomenal cosmic power, itty bitty living space
+* d6 **Power** Can it be controlled?
 * d12 **Truth** The truth is out there
 
 ## Relationships

@@ -5,3 +5,5 @@ status: Extra
 actor: Noah Wyle  
 
 Chancellor Meyer has held his office for less than a year, but has been at Cal for more than two decades, first as a student, then a professor. His daughter Chava enrolled the same year his chancellorship began.
+
+He's concerned about increased unruliness on campus, especially the [love potion incident][s01e02] and the near riot that ensued.

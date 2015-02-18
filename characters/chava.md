@@ -9,7 +9,7 @@ Chava is a freshman who recently found that she can see other peoples' memories.
 
 Her father Jonah Meyer is Cal's Chancellor, and before that was a professor at Cal, and before that a student there, so she has spent her entire life on and around the campus, and is quite familiar with its ins and outs. A child progidy, she's been sitting in on classes for many years, so it is unusual when someone doesn't know who she is.
 
-She and her long-time friend Orson know of each others' powers. She dated Dick for a time in High School, but broke it off when he began to experiment with the local radicals.
+She and her long-time friend Orson know of each others' powers. She dated Dick for a time in High School, broke it off when he began to experiment with the local radicals, but after rekindling their relationship with the aid of [a certain love potion][s01e02], she is reconsidering that decision.
 
 ## Drives
 
