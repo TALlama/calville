@@ -172,14 +172,18 @@ var Nav = {
       }));
     }, []).filter(function (item, ix, eps) {
       return eps.findIndex(function(i) { return i.path == item.path}) === ix;
-    }).sort().reverse();
+    }).sort(function (a, b) {
+      return b.path > a.path ? 1 : a.path > b.path ? -1 : 0;
+    });
   
     episodes.forEach(function (ep) {
       var match = ep.path.match(Nav.episodeRegex);
-      var li = Nav.addEpisode(nav, match[1], match[2])
-        .attr('data-path', ep.path)
-        .attr('data-milestone', ep.milestone)
-        .click(function (event) { showEpisode(ep.path, ep.milestone); });
+      if (match) {
+        var li = Nav.addEpisode(nav, match[1], match[2])
+          .attr('data-path', ep.path)
+          .attr('data-milestone', ep.milestone)
+          .click(function (event) { showEpisode(ep.path, ep.milestone); });
+      }
     });
     
     if (nav.attr('id') == 'global-nav') {showEpisode(episodes[0].path, episodes[0].milestone);}
@@ -194,14 +198,16 @@ var Nav = {
       var version = this;
       var versionInfo = versions[version];
       var match = version.match(/^s(\d+)e(\d+)$/);
-      var li = Nav.addEpisode(nav, match[1], match[2])
-        .attr('data-version', version)
-        .attr('data-see-version', versionInfo.see)
-        .click(function (event) {
-          var doc = $(event.target).closest('.supporting-doc');
-          showArticle.setBody(doc, versionInfo.data, versionInfo.metadata);
-          Nav.setCurrent(nav, match[1], match[2]);
-        });
+      if (match) {
+        var li = Nav.addEpisode(nav, match[1], match[2])
+          .attr('data-version', version)
+          .attr('data-see-version', versionInfo.see)
+          .click(function (event) {
+            var doc = $(event.target).closest('.supporting-doc');
+            showArticle.setBody(doc, versionInfo.data, versionInfo.metadata);
+            Nav.setCurrent(nav, match[1], match[2]);
+          });
+      }
     });
     
     Nav.setCurrent(nav, currentVersion || versionNames[0]);
