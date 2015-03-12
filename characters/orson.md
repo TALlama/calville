@@ -42,8 +42,9 @@ Orson can cloud mens' minds to wrap himself in the shadows, becoming invisible. 
 
 * d8 **Invisible**, via `Clouding Minds`, but limited by `Mechanics`
 * d8 **Nibelung Heritage**
-* d6 **Wealthy**
+* d4 **Wealthy**
 * d6 **Sneaky**
 * d6 **Marksman**
+* d4 **Vicious**
 * d4 **Marcus Krieg**, his father
 * d6 **Off-Campus House**, at his disposal (sanctuary, armory)

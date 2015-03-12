@@ -17,9 +17,9 @@ He father was elevated to the position of Chancellor at the start of the 1961 ac
 
 ## Recent History
 
-After rekindling her relationship with Dick with the aid of [a certain love potion][s01e02], she is reconsidering her decision to break it off with him. She cannot deny her feelings for him, but finds him frustratingly lackadaisical, and his [connections][s01e04] to various shady characters have gotten her in trouble on multiple occasions.
+After rekindling her relationship with Dick with the aid of [a certain love potion][s01e02], she is reconsidering her decision to break it off with him. She cannot deny her feelings for him, but finds him frustratingly lackadaisical, and his [connections][s01e04] to [various][s01e05] shady characters have gotten her in trouble on multiple occasions.
 
-Her own obsession with finding out the origin of powers gets her into trouble, as well, especially when [other people][s01e01] with powers cross her radar. She [suspects][s01e03] that Sam and possibly Richard know about people with powers, but does not yet know what to do about the twins.
+Her own obsession with finding out the origin of powers gets her into trouble, as well, especially when [other people][s01e01] with powers cross her radar. She [suspects][s01e03] that Sam and possibly Richard know about people with powers, and while she does not yet know what to do about the twins, she nevertheless [deals with the aftermath][s01e06] of their handiwork, and is scared that doing so will become increasingly impossible.
 
 ## Powers
 
@@ -31,15 +31,15 @@ Chava is intimately connected to the memories of those around her. Other people'
 
 * d6 **Duty** My parents sacrificed to give me this opportunity
 * d4 **Glory** The work is more important than the workers
-* d10 **Justice** Equality is ours for the taking
-* d4 **Love** Love distracts
-* d6 **Power** The truth shall set us free
-* d12 **Truth** No one keeps secrets from me.
+* d8 **Justice** Equality is ours for the taking
+* d4 **Love** is dangerous
+* d8 **Power** The truth shall set us free
+* d12 **Truth** No one keeps secrets from me
 
 ### Relationships
 
-* d6 **Richard** needs to choose which side he's on
-* d6 **Orson** needs to be pushed to reach his potential
+* d8 **Richard** might yet be an ally
+* d8 **Orson** needs to be pushed to reach his potential
 * d4 **Bao** is a mystery
 * d6 **Dick** is wasting his talents
 
@@ -49,6 +49,6 @@ Chava is intimately connected to the memories of those around her. Other people'
 * d4 **Object Read**, via `Collective Unconscious`, but limited by `Strong Emotions`
 * d8 **On a Mission**
 * d8 **Genius**
-* d4 **Family Reputation**
+* d4 **Willful**
 * d6 **Jonah Meyer**, her father (academic, political)
 * d8 **Cal**, her home (research, resources)
