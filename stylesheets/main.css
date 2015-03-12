@@ -99,7 +99,7 @@ article.episode .info dl dd {
   margin: 0 1em 0 .3em;
 }
 
-article.episode p.action > i {
+article.episode p.action i:only-child {
   font-family: 'Amatic SC', cursive;
   font-size: 140%;
   font-style: normal;
