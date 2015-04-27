@@ -34,10 +34,11 @@ He has become quite close to both Orson and Chava, and is very upset when they [
 
 ### Relationships
 
-* d10 **Chava** is as stubborn as a mule
+* d12 **Chava** is as stubborn as a mule
 * d10 **Orson** is more than meets the eye
+* d6 **Eirwyn** would make a promising agent
 * d10 **Sam** is a lost soul
-* d8 **Bao** is the one that got away
+* d8 **Bao** is the one that could have been
 * d4 **Dick** drags others down
 
 ### Gear

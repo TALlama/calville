@@ -35,6 +35,7 @@ Orson can cloud mens' minds to wrap himself in the shadows, becoming invisible. 
 
 * d10 **Chava** Happiness is a warm blanket
 * d6 **Richard** Misery loves company
+* d6 **Eirwyn** I trust her, but should I?
 * d6 **Sam** Idiocy, like justice, is blind
 * d4 **Dick** Thorn in my side
 
@@ -45,6 +46,6 @@ Orson can cloud mens' minds to wrap himself in the shadows, becoming invisible. 
 * d4 **Wealthy**
 * d6 **Sneaky**
 * d6 **Marksman**
-* d4 **Vicious**
+* d6 **Vicious**
 * d4 **Marcus Krieg**, his father
 * d6 **Off-Campus House**, at his disposal (sanctuary, armory)
