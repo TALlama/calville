@@ -16,6 +16,8 @@ He has been friends with Chava and her friend Bao since High School. Chava is hi
 
 He was once [attacked][s01e01] by Jonathan Struthers, apparently because of their shared history in the Nibelung system, but Struthers' true motives– and his connection with Sam– remain murky.
 
+When he was [caught][s01e07] trying to sneak into FBI HQ, his father was none too pleased.
+
 ## Powers
 
 Orson can cloud mens' minds to wrap himself in the shadows, becoming invisible. When he does so he affects his "Hero Voice" to talk– a deep growl instead of his usual subdued mumbling. He also tends to lose himself in his "character", saying and doing things that he would never do when visible. He often wonders why this is, and how– and if– he can better control himself.

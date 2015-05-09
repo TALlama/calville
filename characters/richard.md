@@ -5,7 +5,7 @@ status: Lead
 actor: Jensen Ackles  
 player: Andrew Ardisone  
 
-Richard is an undercover FBI agent on the lookout for metahumans, and he's finding more than he wants to. He is also the FBI's [newly-appointed][s01e03] special liaison officer to the Kriemhild Project.
+Richard is an undercover FBI agent on the lookout for metahumans, and he's finding more than he wants to. He is also the FBI's [newly-appointed][s01e03] special liaison officer to the Kriemhild Project, and the [designated][s01e07] handler for Eirwyn.
 
 ## Background
 
@@ -20,6 +20,8 @@ He has captured [one confirmed][s01e01] metahuman: Jonathan Struthers, who used 
 His beat on campus also entwines him with [other][s01e02] matters of less import, as well as some of [great import][s01e04], but he remains focused on his core mission of finding metahumans. After one too many close calls, Rob has provided Richard with a variety of surveilance mechanisms that should help him in the field.
 
 He has become quite close to both Orson and Chava, and is very upset when they [get into harm's way][s01e04], and gets [especially upset][s01e05] when people like Dick push them into harms way. He remains unaware that his two closest friends are both metahumans, but does suspect that Orson is hiding something from him.
+
+He has [pledged][s01e07] to help Eirwyn in whatever way he can.
 
 ## Stats
 

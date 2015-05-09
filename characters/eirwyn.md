@@ -5,7 +5,15 @@ status: Lead
 actor: Jennifer Lawrence  
 player: Sam Smith  
 
-Eirwyn is new in town.
+A Yuan'ti visiting Earth from her native world, Eirwyn is on an undercover mission to find the people who killed her King.
+
+## Background
+
+Eirwyn has visited Earth before, and during that visit she became good friends with Chava.
+
+## Recent History
+
+When the King was killed [on her watch][s01e07], Prince Denali tasked her with finding the murderers, who had fled to Earth. When she arrived, the FBI– who have worked with her people before– assigned Richard as her protector, though he quickly learned that she can protect herself quite capably.
 
 ## Stats
 
@@ -27,8 +35,8 @@ Eirwyn is new in town.
 
 ### Assets
 
-* d8 **Telekinesis** via `Heritage`, but limited by `concentration`
-* d4 **Telepathy** via `Heritage`, but limited by `eye contact`
+* d8 **Telekinesis**, via `Heritage`, but limited by `concentration`
+* d4 **Telepathy**, via `Heritage`, but limited by `eye contact`
 * d6 **Yuan'ti Heritage**
 * d6 **Attractive**
 * d8 **Sneaky**
