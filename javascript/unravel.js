@@ -1,27 +1,27 @@
 var zTopDoc = 1000;
 
-function currentMilestone() {
-  return $('article.episode').attr('data-milestone');
+function currentWeave() {
+  return $('article.episode').attr('data-weave');
 };
 
-function getFileAtMilestone(path, milestone) {
-  milestone = milestone || currentMilestone();
+function getFileAtWeave(path, weave) {
+  weave = weave || currentWeave();
   
   var index = $(document).data('index');
-  var pathData = index.elements[path];
-  var atMilestone = pathData[milestone];
-  while (atMilestone.see) {
-    milestone = atMilestone.see;
-    atMilestone = pathData[milestone];
+  var pathData = index.filaments[path];
+  var atWeave = pathData[weave];
+  while (atWeave.see) {
+    weave = atWeave.see;
+    atWeave = pathData[weave];
   }
-  return $.Deferred().resolve(atMilestone.data, atMilestone.metadata, milestone, pathData);
+  return $.Deferred().resolve(atWeave.data, atWeave.metadata, weave, pathData);
 };
 
-function showEpisode(path, milestone) {
-  milestone = milestone || $('#global-nav').data('last-milestone-name');
+function showEpisode(path, weave) {
+  weave = weave || $('#global-nav').data('last-weave-name');
   
-  getFileAtMilestone(path, milestone).then(function(data, metadata) {
-    var article = $('article.episode').attr('data-milestone', milestone);
+  getFileAtWeave(path, weave).then(function(data, metadata) {
+    var article = $('article.episode').attr('data-weave', weave);
     $.each(metadata, function (key, value) { article.find('.info .' + key).text(value) });
     article.find('.body').html(data);
     $('.supporting-doc').remove();
@@ -30,12 +30,12 @@ function showEpisode(path, milestone) {
   });
 };
 
-function showArticle(path, milestone, pinnedTo) {
+function showArticle(path, weave, pinnedTo) {
   var id = path.replace(/[.].*?$/, '').replace(/[^a-z0-9-]+/ig, '-');
   var doc = $('#' + id);
   
   if (doc.length == 0) {
-    getFileAtMilestone(path, milestone).then(function(data, metadata, milestone, pathData) {
+    getFileAtWeave(path, weave).then(function(data, metadata, weave, pathData) {
       var doc = $('<article/>').attr('id', id).attr('class', 'supporting-doc').attr('data-path', path);
       var imageNote = $('<div class="image note"/>')
         .appendTo(doc)
@@ -43,7 +43,7 @@ function showArticle(path, milestone, pinnedTo) {
       var nav = $('<nav class="episode-guide"/>')
         .appendTo(doc)
         .append($("<h2/>").text('As of'));
-      Nav.setVersions(nav, pathData, milestone);
+      Nav.setVersions(nav, pathData, weave);
       
       showArticle.setBody(doc, data, metadata);
       
@@ -160,15 +160,15 @@ var Nav = {
     }
   },
   episodeRegex: /episodes\/s(\d\d)e(\d\d)/,
-  setMilestones: function(nav, milestones) {
-    nav.data('milestones', milestones);
-    nav.data('last-milestone-name', milestones[milestones.length-1].name);
+  setWeaves: function(nav, weaves) {
+    nav.data('weaves', weaves);
+    nav.data('last-weave-name', weaves[0].name);
   
-    var episodes = milestones.reduce(function(eps, milestone) {
-      return eps.concat(milestone.changed.filter(function(c) {
+    var episodes = weaves.reduce(function(eps, weave) {
+      return eps.concat(weave.changed.filter(function(c) {
         return Nav.episodeRegex.test(c);
       }).map(function (path) {
-        return {path: path, milestone: milestone.name};
+        return {path: path, weave: weave.name};
       }));
     }, []).filter(function (item, ix, eps) {
       return eps.findIndex(function(i) { return i.path == item.path}) === ix;
@@ -181,12 +181,12 @@ var Nav = {
       if (match) {
         var li = Nav.addEpisode(nav, match[1], match[2])
           .attr('data-path', ep.path)
-          .attr('data-milestone', ep.milestone)
-          .click(function (event) { showEpisode(ep.path, ep.milestone); });
+          .attr('data-weave', ep.weave)
+          .click(function (event) { showEpisode(ep.path, ep.weave); });
       }
     });
     
-    if (nav.attr('id') == 'global-nav') {showEpisode(episodes[0].path, episodes[0].milestone);}
+    if (nav.attr('id') == 'global-nav') {showEpisode(episodes[0].path, episodes[0].weave);}
   },
   setVersions: function(nav, versions, currentVersion) {
     versions = versions || {};
@@ -216,12 +216,12 @@ var Nav = {
   },
 };
 
-$(document).on('click', "a.milestone-link", function (event) {
+$(document).on('click', "a.weave-link", function (event) {
   event.preventDefault();
   
   var $this = $(this);
   var href = $this.attr('href');
-  var path = href.replace(/^:milestone:\//, '');
+  var path = href.replace(/^:weave:\//, '');
   if (/episodes\//.test(path)) {
     showEpisode(path);
   } else {
@@ -248,6 +248,6 @@ $(function () {
     $(document).data('index', data);
     
     var globalNav = $('#global-nav');
-    Nav.setMilestones(globalNav, data.milestones);
+    Nav.setWeaves(globalNav, data.weaves);
   });
 });
