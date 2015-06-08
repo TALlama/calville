@@ -49,7 +49,7 @@ He has [pledged][s01e07] to help Eirwyn in whatever way he can.
 
 ### Assets
 
-* d6 **Super Senses** Gear
+* d8 **Super Senses** Gear
 * d4 **Heroic Reputation**
 * d6 **In Over Your Head**
 * d10 **Marksman**

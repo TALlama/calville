@@ -8,7 +8,7 @@ Samantha "Sam" Smtih is aide-de-camp to Marcus Krieg, and does a variety of jobs
 
 Her twin brother Richard and her do not see eye to eye.
 
-She was [aiding][s01e01] Jonathan Struthers with his vendetta against the Nibelung Orphans, but the nature, extent, and motivation of that aid remain murky. As she also led the [search][s01e03] for Timothy Simmons, it seems that either her job or her personality are driving her toward metahumans.
+She was [aiding][s01e01] Jonathan Struthers with his vendetta against the Nibelung Orphans, but the nature, extent, and motivation of that aid remain murky. As she also led the [search][s01e03] for Timothy Simmons and aided in the [expedition][s01e08] to the Nibelung orphange, it seems that either her job or her personality are driving her toward metahumans.
 
 ## Stats
 

@@ -1,6 +1,6 @@
 title: Jonah Meyer  
 image: images/s01e01/jonah.png  
-replaces: Chancellor  
+replaces: Chancellor|Chancellor Meyer|Chancellor Jonah Meyer  
 status: Extra  
 actor: Noah Wyle  
 
@@ -8,7 +8,7 @@ Jonah Meyer is Chancellor of UC Berkeley.
 
 ## Background
 
-Chancellor Meyer has held his office for less than a year, but has been at Cal for more than two decades, first as a student, then a professor. His daughter Chava enrolled the year after his chancellorship began.
+Chancellor Meyer has held his office for less than a year, but has been at Cal for more than two decades, first as a student, then a professor. He met and married Ada Meyer while both were teaching at the school. His daughter Chava enrolled the year after his chancellorship began.
 
 ## Recent History
 

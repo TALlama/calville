@@ -16,7 +16,7 @@ He has been friends with Chava and her friend Bao since High School. Chava is hi
 
 He was once [attacked][s01e01] by Jonathan Struthers, apparently because of their shared history in the Nibelung system, but Struthers' true motives– and his connection with Sam– remain murky.
 
-When he was [caught][s01e07] trying to sneak into FBI HQ, his father was none too pleased.
+When he was [caught][s01e07] trying to sneak into FBI HQ, his father was none too pleased. To get back in Marcus' good graces, Orson convinced his friends to take a [trip][s01e08] to Germany and find out more about his past.
 
 ## Powers
 
