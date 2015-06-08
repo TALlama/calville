@@ -20,3 +20,10 @@ if (!Array.prototype.findIndex) {
     return -1;
   };
 }
+
+if (!Array.prototype.find) {
+  Array.prototype.find = function(predicate) {
+    var ix = this.findIndex(predicate);
+    return ix == -1 ? null : this[ix];
+  };
+}
