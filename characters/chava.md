@@ -21,6 +21,8 @@ After rekindling her relationship with Dick with the aid of [a certain love poti
 
 Her own obsession with finding out the origin of powers gets her into trouble, as well, especially when [other people][s01e01] with powers cross her radar. She [suspects][s01e03] that Sam and possibly Richard know about people with powers, and while she does not yet know what to do about the twins, she nevertheless [deals with the aftermath][s01e06] of their handiwork, and is scared that doing so will become increasingly impossible.
 
+To find out more, she has [allied herself][s01e09] with Marcus Krieg, but she knows that he is acting in his interests and not hers, so she is trying to be careful.
+
 ## Powers
 
 Chava is intimately connected to the memories of those around her. Other people's memories often intrude into her mind without her having to do anything. Although she has learned to block them out most of the time, she still sees some intense memories unbidden, especially when she is distracted or asleep. When she is near someone, a little focus allows her to reach out and inspect their memories without their knowledge. More recently, she has had to figure out how to [muddle][s01e03] the memories of others, which she has used to cover her tracks when she and Orson have been a little more obvious than she would like.
@@ -43,6 +45,7 @@ Chava is intimately connected to the memories of those around her. Other people'
 * d6 **Eirwyn** left me when I needed her
 * d6 **Bao** is a moth to a flame
 * d6 **Dick** is wasting his talents
+* d6 **Marcus** is useful but dangerous
 
 ### Assets
 

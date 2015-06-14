@@ -5,7 +5,7 @@ actor: Julia Ling
 
 Bao is the daughter of the Chinese Ambassador. She is Chava's best friend and Richard's ex.
 
-She was [put into a coma][s01e01] by Jonathan Struthers, who was trying to kill Orson. Much to the consternation of Richard, she now harbors a crush on Orson, which she has acted on when [the love potion][s01e02] prompted her to, and again when [she had more control over herself][s01e06].
+She was [put into a coma][s01e01] by Jonathan Struthers, who was trying to kill Orson. Much to the consternation of Richard, she now harbors a crush on Orson, which she has acted on in [increasingly][s01e02] [forward][s01e06] [ways][s01e09], until Orson finally realized the reality of the situation.
 
 ## Stats
 

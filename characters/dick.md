@@ -9,7 +9,7 @@ Dick is a sophomore at Cal, but you wouldn't know it from talking to him. He spe
 
 He has an on-again/off-again relationship with Chava, but since their last on-again stint was helped along by [a love potion][s01e02], he's unsure of where they stand at the moment. He fancies Orson as his best friend, but Orson would not describe their relationship in those terms.
 
-He knew a number of the people in Amanda Holgins' [terrorist cell][s01e04], and told Chava about it, which almost got her killed. This decision turned both Richard and Orson against him, which he found to be rather unfair: he had been kidnapped, too, but no one seemed to care.
+He knew a number of the people in Amanda Holgins' [terrorist cell][s01e04], and told Chava about it, which almost got her killed. This decision [turned][s01e05] both Richard and Orson against him, which he found to be rather unfair: he had been kidnapped, too, but no one seemed to care. When Richard then [spurned Orson][s01e09], Dick came to the defense of his friend, and was attacked for his troubles.
 
 ## Stats
 

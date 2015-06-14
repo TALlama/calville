@@ -9,7 +9,7 @@ Richard is an undercover FBI agent on the lookout for metahumans, and he's findi
 
 ## Background
 
-Richard and Sam are twins, but they do not see eye to eye. After a tragedy in their past, Richard joined the FBI, while Sam went to work for Marcus Kreig.
+Richard and Sam are twins, but their methods differ. After a tragedy in their past, Richard joined the FBI, while Sam went to work for Marcus Krieg.
 
 He used to date Bao, but they [broke up][s01e02] some time ago, much to his consternation.
 
@@ -19,7 +19,9 @@ He has captured [one confirmed][s01e01] metahuman: Jonathan Struthers, who used 
 
 His beat on campus also entwines him with [other][s01e02] matters of less import, as well as some of [great import][s01e04], but he remains focused on his core mission of finding metahumans. After one too many close calls, Rob has provided Richard with a variety of surveilance mechanisms that should help him in the field.
 
-He has become quite close to both Orson and Chava, and is very upset when they [get into harm's way][s01e04], and gets [especially upset][s01e05] when people like Dick push them into harms way. He remains unaware that his two closest friends are both metahumans, but does suspect that Orson is hiding something from him.
+He has become quite close to both Orson and Chava, and is very upset when they [get into harm's way][s01e04], and gets [especially upset][s01e05] when people like Dick push them into harms way. He remains unaware that his two closest friends are both metahumans, but does suspect that Orson is hiding something from him. It does not help that Orson and Bao [might be seeing each other][s01e09].
+
+His and Sam's recent [work][s01e03] [together][s01e08] has been fruitful, and Richard is beginning to see their relationship differently.
 
 He has [pledged][s01e07] to help Eirwyn in whatever way he can.
 
@@ -41,7 +43,7 @@ He has [pledged][s01e07] to help Eirwyn in whatever way he can.
 * d6 **Eirwyn** would make a promising agent
 * d10 **Sam** is a lost soul
 * d8 **Bao** is the one that could have been
-* d4 **Dick** drags others down
+* d6 **Dick** drags others down
 
 ### Gear
 

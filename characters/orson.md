@@ -18,6 +18,8 @@ He was once [attacked][s01e01] by Jonathan Struthers, apparently because of thei
 
 When he was [caught][s01e07] trying to sneak into FBI HQ, his father was none too pleased. To get back in Marcus' good graces, Orson convinced his friends to take a [trip][s01e08] to Germany and find out more about his past.
 
+He recently [became aware][s01e09] that Bao has [long][s01e02] [harbored][s01e06] a crush on him, but he has no idea what he should do about it.
+
 ## Powers
 
 Orson can cloud mens' minds to wrap himself in the shadows, becoming invisible. When he does so he affects his "Hero Voice" to talk– a deep growl instead of his usual subdued mumbling. He also tends to lose himself in his "character", saying and doing things that he would never do when visible. He often wonders why this is, and how– and if– he can better control himself.
@@ -39,7 +41,8 @@ Orson can cloud mens' minds to wrap himself in the shadows, becoming invisible. 
 * d6 **Richard** Misery loves company
 * d6 **Eirwyn** I trust her, but should I?
 * d6 **Sam** Idiocy, like justice, is blind
-* d4 **Dick** Thorn in my side
+* d6 **Dick** Thorn in my side
+* d4 **Bao** New horizons
 
 ### Assets
 
