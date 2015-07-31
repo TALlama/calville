@@ -16,7 +16,8 @@ a, a:active, a:visited, a:hover, a:link {
 }
 
 #about-note {
-  width: 100%;
+  width: 50%;
+  float: right;
 }
 
 #about-note h1 {
@@ -37,6 +38,10 @@ nav {
   background-color: #333;
 }
 
+nav a, nav a:link, nav a:active, nav a:hover, nav a:visited {
+  color: #999;
+}
+
 nav ol {
   list-style: none;
   margin: 0;
@@ -49,6 +54,10 @@ nav li {
 
 nav li.current {
   background-color: #0074EE;
+  color: white;
+}
+
+nav li.current a, nav li.current a:link, nav li.current a:active, nav li.current a:hover, nav li.current a:visited {
   color: white;
 }
 
@@ -129,6 +138,9 @@ article.episode p.action i:only-child {
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 50%;
   
   box-shadow: 0px 0px 5px #333;
   overflow: scroll;
