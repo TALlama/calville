@@ -40,12 +40,13 @@ Chava is intimately connected to the memories of those around her. Other people'
 
 ### Relationships
 
-* d8 **Richard** might yet be an ally
+* d8 **Richard** knows more than he reveals
 * d8 **Orson** needs to be pushed to reach his potential
 * d6 **Eirwyn** left me when I needed her
 * d6 **Bao** is a moth to a flame
 * d6 **Dick** is wasting his talents
 * d6 **Marcus** is useful but dangerous
+* d6 **Sam** knows the ropes
 
 ### Assets
 

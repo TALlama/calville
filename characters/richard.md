@@ -41,17 +41,16 @@ He has [pledged][s01e07] to help Eirwyn in whatever way he can.
 * d12 **Chava** is as stubborn as a mule
 * d10 **Orson** is more than meets the eye
 * d6 **Eirwyn** would make a promising agent
-* d10 **Sam** is a lost soul
-* d8 **Bao** is the one that could have been
+* d10 **Sam** blood is thicker than water
+* d8 **Bao** is as cold as ice
 * d6 **Dick** drags others down
 
 ### Gear
 
-* d6 **Super Senses**
+* d8 **Super Senses**
 
 ### Assets
 
-* d8 **Super Senses** Gear
 * d4 **Heroic Reputation**
 * d6 **In Over Your Head**
 * d10 **Marksman**

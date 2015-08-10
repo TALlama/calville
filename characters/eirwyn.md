@@ -20,8 +20,8 @@ When the King was killed [on her watch][s01e07], Prince Denali tasked her with f
 ### Drives
 
 * d10 **Duty** For the house of Denali
-* d4 **Glory** I work in the shadows
-* d10 **Justice** Long arm of the law
+* d6 **Glory** I work in the shadows
+* d8 **Justice** Long arm of the law
 * d4 **Love** is a distraction
 * d4 **Power** corrupts
 * d10 **Truth** is freedom
@@ -29,7 +29,7 @@ When the King was killed [on her watch][s01e07], Prince Denali tasked her with f
 ### Relationships
 
 * d8 **Chava** I left her to help the crown
-* d8 **Richard** is my mysterious protector
+* d8 **Richard** is my partner in crime
 * d6 **Orson** could be one of us
 * d4 **Jonah** trusted confidant
 
