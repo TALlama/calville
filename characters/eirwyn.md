@@ -9,7 +9,7 @@ A Yuan'ti visiting Earth from her native world, Eirwyn is on an undercover missi
 
 ## Background
 
-Eirwyn has visited Earth before, and during that visit she became good friends with Chava.
+Eirwyn has visited Earth before, and during that visit she became good friends with Chava. She also befriended Axel, who unbeknownst to Eirwyn, was involved in the King's assassination.
 
 ## Recent History
 
@@ -32,6 +32,7 @@ When the King was killed [on her watch][s01e07], Prince Denali tasked her with f
 * d8 **Richard** is my partner in crime
 * d6 **Orson** could be one of us
 * d4 **Jonah** trusted confidant
+* d4 **Barry** old coworker
 
 ### Assets
 

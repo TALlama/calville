@@ -1,4 +1,5 @@
 title: Bao Li  
+abbreviation: bao
 image: images/s01e01/bao.png  
 status: Feature  
 actor: Julia Ling  

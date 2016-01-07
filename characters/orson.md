@@ -44,6 +44,7 @@ Orson can cloud mens' minds to wrap himself in the shadows, becoming invisible. 
 * d6 **Dick** Thorn in my side
 * d6 **Marcus** When the wind is southerly
 * d4 **Bao** New horizons
+* d4 **Barry** is one of dad's lackeys
 
 ### Assets
 
