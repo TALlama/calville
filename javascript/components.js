@@ -107,7 +107,7 @@ var EpisodeSelector = React.createClass({displayName: "EpisodeSelector",
         React.createElement("ol", {className: "seasons"}, 
           $.map(this.episodeListsBySeason(), function(episodes, season) {
             return $this.seasonLi(season, episodes);
-          })
+          }).reverse()
         )
       )
     );

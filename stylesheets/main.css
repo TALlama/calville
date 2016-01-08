@@ -52,6 +52,10 @@ nav li {
   padding: 0 .2em;
 }
 
+nav li.season {
+   margin-bottom: 1em;
+}
+
 nav li.current {
   background-color: #0074EE;
   color: white;
@@ -181,6 +185,7 @@ article.episode p.action i:only-child {
   background-color: #ffc;
   background-image: url('../images/lightpaperfibers.png');
   padding: 1em;
+  min-width: 15em;
   min-height: 100%;
   box-shadow: 0px 0px 5px #333;
 }
