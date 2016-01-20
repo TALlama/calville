@@ -4,7 +4,11 @@ status: Lead
 actor: John Hutcherson  
 player: Juan Padilla  
 
-Barry is a junior who works at the Rad Lab.
+Barry is a junior who worked at the Rad Lab until it [exploded][s02e01] while he was inside. When he awoke he found that he had super-speed, and he's trying to come to terms with this new reality.
+
+## Recent History
+
+After the Rad Lab [explosion][s02e01], Barry followed the advice of Claudia and reached out to Richard for help. In doing so, he let Chava and Richard know about his powers.
 
 ## Stats
 
@@ -20,7 +24,7 @@ Barry is a junior who works at the Rad Lab.
 ### Relationships
 
 * d10 **Chava** Best friend
-* d4 **Richard** Trustworthy agent
+* d6 **Richard** Trustworthy agent
 * d4 **Orson** A stranger
 * d4 **Eirwyn** Cool co-worker
 
@@ -30,7 +34,7 @@ Barry is a junior who works at the Rad Lab.
 * d12 **Agile**
 * d8 **Genius**
 * d8 **Smartass**
-* d8 **Likeable**
+* d8 **Likable**
 * d8 **Pez**, his friend
 * d10 **Rad Lab**, his workplace
 * d4 **Secret Dorm Room**, his hideout

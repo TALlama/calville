@@ -15,6 +15,8 @@ Eirwyn has visited Earth before, and during that visit she became good friends w
 
 When the King was killed [on her watch][s01e07], Prince Denali tasked her with finding the murderers, who had fled to Earth. When she arrived, the FBI– who have worked with her people before– assigned Richard as her protector, though he quickly learned that she can protect herself quite capably.
 
+She and Orson had a [disagreement][s02e01] over a package meant for her but delivered to him, and neither of them has forgiven the other for it.
+
 ## Stats
 
 ### Drives
@@ -38,6 +40,7 @@ When the King was killed [on her watch][s01e07], Prince Denali tasked her with f
 
 * d8 **Telekinesis**, via `Heritage`, but limited by `concentration`
 * d4 **Telepathy**, via `Heritage`, but limited by `eye contact`
+* d6 **Luck**, via `Gear`, in the form of a `probabilty coin`
 * d6 **Yuan'ti Heritage**
 * d6 **Attractive**
 * d8 **Sneaky**

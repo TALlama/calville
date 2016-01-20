@@ -19,7 +19,7 @@ He has become quite close to both Orson and Chava, and is very upset when they [
 
 He has [pledged][s01e07] to help Eirwyn in whatever way he can, and has been [training][s01e11] her as an agent. He has recently discovered that disavowed CIA agent Axel had possible connections to the King's assassination.
 
-He has captured [one confirmed][s01e01] metahuman: Jonathan Struthers, who used his contol of fire to attack Richard's friend Orson. His sister Sam [enlisted his help][s01e03] with another metahuman, Timothy Simmons, who had volunteered to become a super-soldier and instead became an abomination. When Marcus Kreig ordered him eliminated and Richard helped Sam to do so, Richard was brought into the Kriemhild Project as an asset. After being [alerted to her existence][s01e06], he now visits Timothy's daughter Anastasia Simmons somewhat regularly.
+He has captured [one confirmed][s01e01] metahuman: Jonathan Struthers, who used his contol of fire to attack Richard's friend Orson. He knows about but is hiding another metahuman: Barry West, who came to him for help after he gained his powers. His sister Sam [enlisted his help][s01e03] with yet another metahuman, Timothy Simmons, who had volunteered to become a super-soldier and instead became an abomination. When Marcus Kreig ordered him eliminated and Richard helped Sam to do so, Richard was brought into the Kriemhild Project as an asset. After being [alerted to her existence][s01e06], he now visits Timothy's daughter Anastasia Simmons somewhat regularly.
 
 His beat on campus also entwines him with [other][s01e02] matters of less import, as well as some of [great import][s01e04], but he remains focused on his core mission of finding metahumans. After one too many close calls, Rob has provided Richard with a variety of surveilance mechanisms that should help him in the field.
 
@@ -44,7 +44,7 @@ His and Sam's recent [work][s01e03] [together][s01e08] has been fruitful, and Ri
 * d10 **Sam** blood is thicker than water
 * d8 **Bao** is as cold as ice
 * d6 **Dick** drags others down
-* d4 **Barry** is a mystery to be solved
+* d6 **Barry** is a mystery to be solved
 
 ### Gear
 

@@ -8,7 +8,7 @@ Jonah Meyer was Chancellor of UC Berkeley. He was killed by Axel Douglass in May
 
 ## Background
 
-Chancellor Meyer held his office for just over one year, from June 1961 to May 1963, but was at Cal for more than two decades, first as a student, then a professor. He met and married Ada Meyer while both were teaching at the school. His daughter Chava enrolled the year after his chancellorship began.
+Chancellor Meyer held his office for just under two years, from June 1961 to May 1963, but was at Cal for more than two decades, first as a student, then a professor. He met and married Ada Meyer while both were teaching at the school. His daughter Chava enrolled the year after his chancellorship began.
 
 ## Recent History
 

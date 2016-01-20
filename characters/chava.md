@@ -13,13 +13,13 @@ Chava grew up at Cal, where her father was a professor. Having spent her entire 
 
 In high school she met Bao, who became her best friend. She also met Orson, whose father was a Cal donor, and they became fast friends, bonding over their shared secret of powers and Cal. In her senior year of high school she dated Dick, who was already at Cal as a freshman. But when he began to experiment with the local radicals, she broke it off.
 
-He father was elevated to the position of Chancellor at the start of the 1961 academic year, and she started classes in 1962.
+He father was elevated to the position of Chancellor at the start of the 1961 academic year, and she started classes in 1962. That year she worked an internship at the Rad Lab with Barry.
 
 ## Recent History
 
 After rekindling her relationship with Dick with the aid of [a certain love potion][s01e02], she is reconsidering her decision to break it off with him. She cannot deny her feelings for him, but finds him frustratingly lackadaisical, and his [connections][s01e04] to [various][s01e05] shady characters have gotten her in trouble on multiple occasions.
 
-Her own obsession with finding out the origin of powers gets her into trouble, as well, especially when [other people][s01e01] with powers cross her radar. She [suspects][s01e03] that Sam and possibly Richard know about people with powers, and while she does not yet know what to do about the twins, she nevertheless [deals with the aftermath][s01e06] of their handiwork, and is scared that doing so will become increasingly impossible. To find out more, she has [allied herself][s01e09] with Marcus Krieg, but she knows that he is acting in his interests and not hers, so she is trying to be careful.
+Her own obsession with finding out the origins of powers gets her into trouble, as well, especially when [other people][s01e01] [with powers][s02e01] cross her radar. She [suspects][s01e03] that Sam and possibly Richard know about people with powers, and while she does not yet know what to do about the twins, she nevertheless [deals with the aftermath][s01e06] of their handiwork, and is scared that doing so will become increasingly impossible. To find out more, she has [allied herself][s01e09] with Marcus Krieg, but she knows that he is acting in his interests and not hers, so she is trying to be careful.
 
 Since her father's [assassination][s01e11] in 1963, she has been trying to figure out how to live in a place so closely connected to his memory.
 
@@ -47,7 +47,7 @@ Chava is intimately connected to the memories of those around her. Other people'
 * d6 **Dick** is wasting his talents
 * d6 **Marcus** is useful but dangerous
 * d6 **Sam** knows the ropes
-* d4 **Barry** is burning bright, too quickly
+* d6 **Barry** is burning bright, too quickly
 
 ### Assets
 
