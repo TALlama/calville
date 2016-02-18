@@ -1,7 +1,296 @@
 {
   "weaves": [
     {
-      "sha": "1e6d6ebc38c6a2a729acfba5857c8e09df13790f",
+      "sha": "20d2c9c85a479c2226b28ae3b01b95e6eea3c46b",
+      "changed": [
+        "characters/chava.html",
+        "characters/claudia.html",
+        "characters/eirwyn.html",
+        "characters/marcus.html",
+        "characters/orson.html",
+        "characters/richard.html",
+        "episodes/s02e04_cages.html"
+      ],
+      "snippets": {
+        "axel[.]cia": "Axel's d6 **CIA** \"Supplies, Escapes\"",
+        "axel[.]duty": "Axel's d6 **Duty** \"I bow to no man\"",
+        "axel[.]e": "Axel's d6 **Eirwyn** \"Was just caught in the crossfire\"",
+        "axel[.]extraterrestrial-knowledge": "Axel's d10 **Extraterrestrial Knowledge**",
+        "axel[.]fixer": "Axel's d6 **Fixer**",
+        "axel[.]glory": "Axel's d12 **Glory** \"Who you gonna call\"",
+        "axel[.]guest-star": "Axel's d6 **Guest Star**",
+        "axel[.]guilty": "Axel's d8 **Guilty**",
+        "axel[.]justice": "Axel's d6 **Justice** \"Guilty all the same\"",
+        "axel[.]love": "Axel's d4 **Love** \"Has failed me in the past\"",
+        "axel[.]luck": "Axel's d6 **Luck**",
+        "axel[.]manipulative": "Axel's d8 **Manipulative**",
+        "axel[.]marcus": "Axel's d10 **Marcus** \"A fool and his money are soon parted\"",
+        "axel[.]nibelung": "Axel's d8 **Nibelung** \"Science, Blackmail\"",
+        "axel[.]o": "Axel's d10 **Orson** \"He didn't deserve this… I did.\"",
+        "axel[.]power": "Axel's d8 **Power** \"I give people what they want\"",
+        "axel[.]prince-denali": "Axel's d4 **Prince Denali** \"Contacts, Work\"",
+        "axel[.]r": "Axel's d6 **Richard** \"By the book\"",
+        "axel[.]rob-douglas": "Axel's d4 **Rob Douglas** \"Secrets, Plans\"",
+        "axel[.]truth": "Axel's d6 **Truth** \"Is whatever my employer tells me\"",
+        "b[.]agile": "Barry's d12 **Agile**",
+        "b[.]c": "Barry's d10 **Chava** \"Best friend\"",
+        "b[.]connected": "Bao's d8 **Connected**",
+        "b[.]duty": "Barry's d8 **Duty** \"I try to keep my promises\"",
+        "b[.]e": "Barry's d4 **Eirwyn** \"Cool co-worker\"",
+        "b[.]embassy": "Bao's d8 **Embassy**",
+        "b[.]genius": "Barry's d8 **Genius**",
+        "b[.]glory": "Barry's d8 **Glory** \"If you've got the stuff, you gotta show it off\"",
+        "b[.]justice": "Barry's d4 **Justice** \"I don't recognize your laws\"",
+        "b[.]likable": "Barry's d8 **Likable**",
+        "b[.]likeable": "Barry's d8 **Likeable**",
+        "b[.]love": "Barry's d4 **Love** \"A weakness\"",
+        "b[.]o": "Barry's d4 **Orson** \"A stranger\"",
+        "b[.]pez": "Barry's d8 **Pez**",
+        "b[.]power": "Barry's d10 **Power** \"I can't be bought\"",
+        "b[.]r": "Barry's d6 **Richard** \"Trustworthy agent\"",
+        "b[.]rad-lab": "Barry's d10 **Rad Lab**",
+        "b[.]regeneration": "Barry's d4 **Regeneration**",
+        "b[.]secret-dorm-room": "Barry's d4 **Secret Dorm Room**",
+        "b[.]smartass": "Barry's d8 **Smartass**",
+        "b[.]speed": "Barry's d12 **Super Speed**",
+        "b[.]truth": "Barry's d8 **Truth** \"Not everyone needs to hear the truth\"",
+        "b[.]weapons-master": "Bao's d6 **Weapons Master**",
+        "b[.]willful": "Bao's d8 **Willful**",
+        "bao[.]c": "Bao's d8 **Chava** \"We help each other achieve our wishes\"",
+        "bao[.]connected": "Bao's d8 **Connected**",
+        "bao[.]duty": "Bao's d6 **Duty**",
+        "bao[.]embassy": "Bao's d8 **Embassy**",
+        "bao[.]glory": "Bao's d10 **Glory** \"I will be seen for the wonder I am\"",
+        "bao[.]justice": "Bao's d4 **Justice**",
+        "bao[.]love": "Bao's d8 **Love** \"When did you last let your heart decide?\"",
+        "bao[.]o": "Bao's d6 **Orson** \"Why won't he notice me?\"",
+        "bao[.]power": "Bao's d10 **Power** \"My teeth and ambitions are bared… be prepared!\"",
+        "bao[.]r": "Bao's d4 **Richard** \"It was fun while it lasted\"",
+        "bao[.]truth": "Bao's d4 **Truth**",
+        "bao[.]weapons-master": "Bao's d6 **Weapons Master**",
+        "bao[.]willful": "Bao's d8 **Willful**",
+        "c[.]b": "Chava's d6 **Barry** \"is too quick to jump into the spotlight\"",
+        "c[.]bao": "Chava's d6 **Bao** \"is a moth to a flame\"",
+        "c[.]barry": "Chava's d6 **Barry** \"is too quick to jump into the spotlight\"",
+        "c[.]cal": "Chava's d8 **Cal**",
+        "c[.]dick": "Chava's d6 **Dick** \"has good intentions but bad instincts\"",
+        "c[.]dick-browett": "Chava's d4 **Dick Browett**",
+        "c[.]duty": "Chava's d6 **Duty** \"My parents sacrificed to give me this opportunity\"",
+        "c[.]e": "Chava's d6 **Eirwyn** \"must be protected from this craziness\"",
+        "c[.]eirwyn": "Chava's d6 **Eirwyn** \"left me when I needed her\"",
+        "c[.]family-reputation": "Chava's d4 **Family Reputation**",
+        "c[.]genius": "Chava's d8 **Genius**",
+        "c[.]glory": "Chava's d4 **Glory** \"The work is more important than the workers\"",
+        "c[.]jonah": "Chava's d6 **Jonah** \"already has enough to deal with\"",
+        "c[.]jonah-meyer": "Chava's d6 **Jonah Meyer**",
+        "c[.]justice": "Chava's d8 **Justice** \"Equality is ours for the taking\"",
+        "c[.]love": "Chava's d4 **Love** \"My heart only makes mistakes\"",
+        "c[.]marcus": "Chava's d6 **Marcus** \"is useful but dangerous\"",
+        "c[.]mission": "Chava's d8 **On a Mission**",
+        "c[.]o": "Chava's d8 **Orson** \"needs to be pushed to reach his potential\"",
+        "c[.]object-read": "Chava's d4 **Object Read**",
+        "c[.]power": "Chava's d8 **Power** \"The powerful need to be checked\"",
+        "c[.]r": "Chava's d8 **Richard** \"needs to stop being a good soldier\"",
+        "c[.]sam": "Chava's d4 **Sam** \"knows the ropes\"",
+        "c[.]tp": "Chava's d10 **Telepathy**",
+        "c[.]truth": "Chava's d12 **Truth** \"No one keeps secrets from me\"",
+        "c[.]willful": "Chava's d4 **Willful**",
+        "claudia[.]barry": "Claudia's d12 **Barry**",
+        "claudia[.]blast-heat-radiation-": "Claudia's d12 **Blast (Heat/Radiation)**",
+        "claudia[.]duty": "Claudia's d4 **Duty** \"Look at what it got me\"",
+        "claudia[.]genius": "Claudia's d8 **Genius**",
+        "claudia[.]glory": "Claudia's d10 **Glory** \"Wait'll they get a load of me\"",
+        "claudia[.]heat-radiation-control": "Claudia's d6 **Heat/Radiation Control**",
+        "claudia[.]impulsive": "Claudia's d6 **Impulsive**",
+        "claudia[.]justice": "Claudia's d12 **Justice** \"Vengeance is mine\"",
+        "claudia[.]love": "Claudia's d8 **Love** \"Makes the world go round\"",
+        "claudia[.]power": "Claudia's d4 **Power** \"Is agony\"",
+        "claudia[.]r": "Claudia's d6 **Richard** \"I thought I could trust him....\"",
+        "claudia[.]soldier": "Claudia's d8 **Soldier**",
+        "claudia[.]truth": "Claudia's d4 **Truth** \"Everything is a lie\"",
+        "d[.]c": "Dick's d8 **Chava** \"and I will be together again\"",
+        "d[.]duty": "Dick's d8 **Duty** \"The cause is everything\"",
+        "d[.]glory": "Dick's d6 **Glory** \"I might not be remembered, but my dream will be\"",
+        "d[.]justice": "Dick's d10 **Justice** \"Only when all are equal is there true justice\"",
+        "d[.]love": "Dick's d8 **Love**",
+        "d[.]manipulative": "Dick's d8 **Manipulative**",
+        "d[.]mastermind": "Dick's d6 **Mastermind**",
+        "d[.]mission": "Dick's d8 **On a Mission**",
+        "d[.]power": "Dick's d6 **Power** \"Those in power need to be removed from it\"",
+        "d[.]smartass": "Dick's d6 **Smartass**",
+        "d[.]truth": "Dick's d4 **Truth** \"Only by keeping my goals hidden can I succeed\"",
+        "e[.]attractive": "Eirwyn's d6 **Attractive**",
+        "e[.]b": "Eirwyn's d4 **Barry** \"old coworker\"",
+        "e[.]barry": "Eirwyn's d4 **Barry** \"old coworker\"",
+        "e[.]c": "Eirwyn's d8 **Chava** \"I left her to help the crown\"",
+        "e[.]chava": "Eirwyn's d8 **Chava** \"I left her to help the crown\"",
+        "e[.]denali": "Eirwyn's d10 **Prince Denali**",
+        "e[.]duty": "Eirwyn's d10 **Duty** \"Whatever it takes\"",
+        "e[.]glory": "Eirwyn's d6 **Glory** \"I work in the shadows\"",
+        "e[.]heritage": "Eirwyn's d6 **Yuan'ti Heritage**",
+        "e[.]java-stop": "Eirwyn's d8 **Java Stop**",
+        "e[.]jonah": "Eirwyn's d4 **Jonah** \"trusted confidant\"",
+        "e[.]justice": "Eirwyn's d8 **Justice** \"Long arm of the law\"",
+        "e[.]love": "Eirwyn's d4 **Love** \"is a distraction\"",
+        "e[.]luck": "Eirwyn's d6 **Luck**",
+        "e[.]o": "Eirwyn's d6 **Orson** \"potential ally\"",
+        "e[.]power": "Eirwyn's d4 **Power** \"corrupts\"",
+        "e[.]r": "Eirwyn's d8 **Richard** \"Powerful ally\"",
+        "e[.]sneaky": "Eirwyn's d8 **Sneaky**",
+        "e[.]tk": "Eirwyn's d8 **Telekinesis**",
+        "e[.]tp": "Eirwyn's d6 **Telepathy**",
+        "e[.]truth": "Eirwyn's d10 **Truth** \"is freedom\"",
+        "j[.]c": "Jonah's d12 **Chava** \"I will keep her safe\"",
+        "j[.]cal": "Jonah's d12 **Cal** \"Specialties: *resources* and *research*\"",
+        "j[.]connected": "Jonah's d8 **Connected**",
+        "j[.]duty": "Jonah's d8 **Duty** \"My child must have a brighter future\"",
+        "j[.]e": "Jonah's d4 **Eirwyn** \"It's not her fault, but I wish she was someone else's problem\"",
+        "j[.]eirwyn": "Jonah's d4 **Eirwyn** \"It's not her fault, but I wish she was someone else's problem\"",
+        "j[.]extraterrestrial-knowledge": "Jonah's d4 **Extraterrestrial Knowledge**",
+        "j[.]glory": "Jonah's d4 **Glory** \"Some things are best unknown\"",
+        "j[.]justice": "Jonah's d4 **Justice** \"All that matters is that those I love are safe\"",
+        "j[.]love": "Jonah's d12 **Love** \"Family is everything\"",
+        "j[.]marksman": "Jonah's d4 **Marksman**",
+        "j[.]not-born-yesterday": "Jonah's d10 **Not Born Yesterday**",
+        "j[.]o": "Jonah's d8 **Orson** \"is bad news, like most Marcus projects\"",
+        "j[.]power": "Jonah's d10 **Power** \"Know the right people and you can change the world\"",
+        "j[.]r": "Jonah's d6 **Richard** \"Naïve, but a good kid\"",
+        "j[.]truth": "Jonah's d4 **Truth** \"Some things are best forgotten\"",
+        "m[.]big-brother": "Marcus's d10 **Big Brother**",
+        "m[.]c": "Marcus's d8 **Chava** \"Interesting. So much more than she pretends to be\"",
+        "m[.]connected": "Marcus's d12 **Connected**",
+        "m[.]duty": "Marcus's d6 **Duty** \"A bright future requires sacrifice\"",
+        "m[.]fbi-hq": "Marcus's d4 **FBI HQ** \"Specialties: *security* and *investigation*\"",
+        "m[.]genius": "Marcus's d8 **Genius**",
+        "m[.]glory": "Marcus's d12 **Glory** \"My work will be remembered long after I'm gone\"",
+        "m[.]jonah": "Marcus's d6 **Jonah** \"Annoying, but necessary for now\"",
+        "m[.]justice": "Marcus's d4 **Justice** \"Artificial structures we create to encourage harmonious relations. Simply put, I won't stab you if you don't stab me\"",
+        "m[.]love": "Marcus's d4 **Love** \"A necessary biological urge for the preservation of the species, but something I've transcended\"",
+        "m[.]manipulative": "Marcus's d8 **Manipulative**",
+        "m[.]mastermind": "Marcus's d8 **Mastermind**",
+        "m[.]nibelung": "Marcus's d12 **Nibelung** \"Specialties: *resources* and *research*\"",
+        "m[.]o": "Marcus's d8 **Orson** \"Useful. Pity he's not that bright.\"",
+        "m[.]power": "Marcus's d10 **Power** \"Knowlege is power\"",
+        "m[.]r": "Marcus's d4 **Richard** \"Some tools are expendable\"",
+        "m[.]s": "Marcus's d10 **Sam** \"A potential protege, but more analysis is necessary\"",
+        "m[.]truth": "Marcus's d6 **Truth** \"It's best if lesser minds don't know\"",
+        "marcus[.]big-brother": "Marcus's d10 **Big Brother**",
+        "marcus[.]c": "Marcus's d8 **Chava** \"Interesting. So much more than she pretends to be\"",
+        "marcus[.]connected": "Marcus's d12 **Connected**",
+        "marcus[.]duty": "Marcus's d6 **Duty** \"A bright future requires sacrifice\"",
+        "marcus[.]fbi-hq": "Marcus's d4 **FBI HQ**",
+        "marcus[.]genius": "Marcus's d8 **Genius**",
+        "marcus[.]glory": "Marcus's d12 **Glory** \"My work will be remembered long after I'm gone\"",
+        "marcus[.]jonah": "Marcus's d6 **Jonah** \"Annoying, but necessary for now\"",
+        "marcus[.]justice": "Marcus's d4 **Justice** \"Artificial structures we create to encourage harmonious relations. Simply put, I won't stab you if you don't stab me\"",
+        "marcus[.]love": "Marcus's d4 **Love** \"A necessary biological urge for the preservation of the species, but something I've transcended\"",
+        "marcus[.]manipulative": "Marcus's d8 **Manipulative**",
+        "marcus[.]mastermind": "Marcus's d8 **Mastermind**",
+        "marcus[.]nibelung": "Marcus's d12 **Nibelung**",
+        "marcus[.]o": "Marcus's d8 **Orson** \"Useful. Pity he's not that bright.\"",
+        "marcus[.]power": "Marcus's d10 **Power** \"Knowlege is power\"",
+        "marcus[.]r": "Marcus's d4 **Richard** \"Some tools are expendable\"",
+        "marcus[.]sam": "Marcus's d10 **Sam** \"A potential protege, but more analysis is necessary\"",
+        "marcus[.]truth": "Marcus's d6 **Truth** \"It's best if lesser minds don't know\"",
+        "o[.]b": "Orson's d4 **Barry** \"is one of dad's lackeys\"",
+        "o[.]bao": "Orson's d4 **Bao** \"New horizons\"",
+        "o[.]barry": "Orson's d4 **Barry** \"is one of dad's minions\"",
+        "o[.]c": "Orson's d10 **Chava** \"Keep Your Friends Close…\"",
+        "o[.]chava": "Orson's d10 **Chava** \"Happiness is a warm blanket\"",
+        "o[.]dick": "Orson's d6 **Dick** \"Maybe not such a dick\"",
+        "o[.]duty": "Orson's d4 **Duty** \"Character is doing what you don't want to but know you should do\"",
+        "o[.]e": "Orson's d8 **Eirwyn** \"A friend in need?\"",
+        "o[.]eirwyn": "Orson's d6 **Eirwyn** \"I trust her, but should I?\"",
+        "o[.]glory": "Orson's d4 **Glory** \"I am a fly on the wall\"",
+        "o[.]heritage": "Orson's d10 **Nibelung Heritage**",
+        "o[.]house": "Orson's d6 **Off-Campus House**",
+        "o[.]invisible": "Orson's d8 **Invisible**",
+        "o[.]justice": "Orson's d10 **Justice** \"The weed of crime bears bitter fruit\"",
+        "o[.]love": "Orson's d4 **Love** \"Why does everybody want to kick my ass?\"",
+        "o[.]marcus": "Orson's d6 **Marcus** \"When the wind is southerly\"",
+        "o[.]marcus-krieg": "Orson's d4 **Marcus Krieg**",
+        "o[.]marksman": "Orson's d4 **Marksman**",
+        "o[.]off-campus-house": "Orson's d6 **Off-Campus House**",
+        "o[.]power": "Orson's d8 **Power** \"Can it be controlled?\"",
+        "o[.]r": "Orson's d6 **Richard** \"Every rose has its thorn\"",
+        "o[.]richard": "Orson's d6 **Richard** \"Misery loves company\"",
+        "o[.]s": "Orson's d6 **Sam** \"Idiocy, like justice, is blind\"",
+        "o[.]sam": "Orson's d6 **Sam** \"Idiocy, like justice, is blind\"",
+        "o[.]sneaky": "Orson's d6 **Sneaky**",
+        "o[.]truth": "Orson's d12 **Truth** \"The truth is out there\"",
+        "o[.]vicious": "Orson's d6 **Vicious**",
+        "o[.]wealthy": "Orson's d4 **Wealthy**",
+        "r[.]b": "Richard's d6 **Barry** \"is a mystery to be solved\"",
+        "r[.]bao": "Richard's d8 **Bao** \"is the one that could have been\"",
+        "r[.]barry": "Richard's d6 **Barry** \"is a mystery to be solved\"",
+        "r[.]c": "Richard's d12 **Chava** \"is as stubborn as a mule\"",
+        "r[.]chava": "Richard's d12 **Chava** \"is as stubborn as a mule\"",
+        "r[.]daring": "Richard's d6 **Daring**",
+        "r[.]dick": "Richard's d6 **Dick** \"drags others down\"",
+        "r[.]duty": "Richard's d8 **Duty** \"I make the hard choices for others\"",
+        "r[.]e": "Richard's d6 **Eirwyn** \"has earned my trust\"",
+        "r[.]eirwyn": "Richard's d6 **Eirwyn** \"would make a promising agent\"",
+        "r[.]fbi": "Richard's d6 **FBI Headquarters**",
+        "r[.]glory": "Richard's d4 **Glory** \"No glory for the grunt\"",
+        "r[.]head": "Richard's d6 **In Over Your Head**",
+        "r[.]heritage": "Richard's d4 **Cybernetic Heritage**",
+        "r[.]heroic-reputation": "Richard's d6 **Heroic Reputation**",
+        "r[.]justice": "Richard's d12 **Justice** \"I am the scales of justice\"",
+        "r[.]kriemhild": "Richard's d4 **Kriemhild Project**",
+        "r[.]love": "Richard's d6 **Love** \"Make my mother proud\"",
+        "r[.]marksman": "Richard's d10 **Marksman**",
+        "r[.]o": "Richard's d10 **Orson** \"is more than meets the eye\"",
+        "r[.]power": "Richard's d8 **Power** \"With great power comes great responsibility\"",
+        "r[.]s": "Richard's d10 **Sam** \"is a lost soul\"",
+        "r[.]sam": "Richard's d10 **Sam** \"is a lost soul\"",
+        "r[.]senses": "Richard's d8 **Super Senses**",
+        "r[.]smartass": "Richard's d4 **Smartass**",
+        "r[.]soldier": "Richard's d8 **Soldier**",
+        "r[.]truth": "Richard's d4 **Truth** \"The truth in the wrong hands\"",
+        "s[.]big-sister": "Sam's d8 **Big Sister**",
+        "s[.]daring": "Sam's d6 **Daring**",
+        "s[.]duty": "Sam's d12 **Duty** \"I make the hard choices for others\"",
+        "s[.]glory": "Sam's d4 **Glory** \"As long as I succeed…\"",
+        "s[.]justice": "Sam's d4 **Justice** \"We make our own justice\"",
+        "s[.]love": "Sam's d4 **Love** \"They're dead. We should move on.\"",
+        "s[.]manipulative": "Sam's d8 **Manipulative**",
+        "s[.]marcus": "Sam's d10 **Marcus** \"His dream is my best hope for success\"",
+        "s[.]o": "Sam's d6 **Orson** \"is not the useless twit he pretends to be\"",
+        "s[.]power": "Sam's d10 **Power** \"Those without power can't achieve anything lasting\"",
+        "s[.]r": "Sam's d10 **Richard** \"is blind and needs me to guide him\"",
+        "s[.]richard": "Sam's d10 **Richard** \"is blind and needs me to guide him\"",
+        "s[.]truth": "Sam's d8 **Truth** \"One person's lie is another person's truth\"",
+        "s[.]vicious": "Sam's d6 **Vicious**"
+      },
+      "replacements": {
+        "/\\[(.*?)\\]\\[s01e01\\]/": "episodes/s01e01_no_more_heroes.html",
+        "/\\[(.*?)\\]\\[s01e02\\]/": "episodes/s01e02_sea_of_heartbreak.html",
+        "/\\[(.*?)\\]\\[s01e03\\]/": "episodes/s01e03_abomination.html",
+        "/\\[(.*?)\\]\\[s01e04\\]/": "episodes/s01e04_which_way_the_wind_blows.html",
+        "/\\[(.*?)\\]\\[s01e05\\]/": "episodes/s01e05_big_girls_dont_cry.html",
+        "/\\[(.*?)\\]\\[s01e06\\]/": "episodes/s01e06_hero_of_another_story.html",
+        "/\\[(.*?)\\]\\[s01e07\\]/": "episodes/s01e07_dancing_with_the_stars.html",
+        "/\\[(.*?)\\]\\[s01e08\\]/": "episodes/s01e08_nibelung.html",
+        "/\\[(.*?)\\]\\[s01e09\\]/": "episodes/s01e09_reflections.html",
+        "/\\[(.*?)\\]\\[s01e10\\]/": "episodes/s01e10_rule_of_the_road.html",
+        "/\\[(.*?)\\]\\[s01e11\\]/": "episodes/s01e11_little_truths_little_lies.html",
+        "/\\[(.*?)\\]\\[s02e01\\]/": "episodes/s02e01_faster_than_a_speeding_bullet.html",
+        "/\\[(.*?)\\]\\[s02e02\\]/": "episodes/s02e02_the_happiest_place_on_earth.html",
+        "/\\[(.*?)\\]\\[s02e03\\]/": "episodes/s02e03_meltdown.html",
+        "/\\[(.*?)\\]\\[s02e04\\]/": "episodes/s02e04_cages.html",
+        "/((\\bChava Meyer\\b)|(\\bchava\\b))/i": "characters/chava.html",
+        "/((\\bClaudia Ramirez\\b)|(\\bClaudia\\b)|(\\bClaudia\\b)|(\\bclaudia\\b))/i": "characters/claudia.html",
+        "/((\\bEirwynfell\\b)|(\\bEirwyn Fell\\b)|(\\beirwyn\\b))/i": "characters/eirwyn.html",
+        "/((\\bMarcus Krieg\\b)|(\\bmarcus\\b))/i": "characters/marcus.html",
+        "/((\\bOrson Krieg\\b)|(\\borson\\b))/i": "characters/orson.html",
+        "/((\\bAgent Smith\\b)|(\\bRichard Smith\\b)|(\\brichard\\b))/i": "characters/richard.html",
+        "/((\\bs2e4\\b)|(\\bs02e04\\b)|(\\bCages\\b)|(\\bCages\\b)|(\\bs02e04_cages\\b))/i": "episodes/s02e04_cages.html"
+      },
+      "name": "s02e04",
+      "follows": "s02e03"
+    },
+    {
+      "sha": "d278a9f69f91d7d4533b32a3920f9078b80cdbee",
       "changed": [
         "characters/barry.html",
         "characters/chava.html",
@@ -51,7 +340,7 @@
         "b[.]power": "Barry's d10 **Power** \"I can't be bought\"",
         "b[.]r": "Barry's d6 **Richard** \"Trustworthy agent\"",
         "b[.]rad-lab": "Barry's d10 **Rad Lab**",
-        "b[.]regeneration": "Barry's d12 **Regeneration**",
+        "b[.]regeneration": "Barry's d4 **Regeneration**",
         "b[.]secret-dorm-room": "Barry's d4 **Secret Dorm Room**",
         "b[.]smartass": "Barry's d8 **Smartass**",
         "b[.]speed": "Barry's d12 **Super Speed**",
@@ -2276,6 +2565,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "characters/chava.html": {
@@ -2397,6 +2689,16 @@
           "actor": "Lea Michele",
           "player": "Seth A. Roby"
         }
+      },
+      "s02e04": {
+        "data": "<p>Chava is a freshman who recently found that she can see other peoples&#39; memories. Discovering the source of these powers– her own and others she has met– has become her chief focus.</p>\n\n<h2>Background</h2>\n\n<p>Chava grew up at <a class=\"weave-link\" href=\":weave:/locations/campus.html\">Cal</a>, where her father was a professor. Having spent her entire life on and around the <a class=\"weave-link\" href=\":weave:/locations/campus.html\">campus</a>, she is quite familiar with its ins and outs. A child progidy, she&#39;s been sitting in on classes for many years, so it is unusual when someone doesn&#39;t know who she is.</p>\n\n<p>In high school she met <a class=\"weave-link\" href=\":weave:/characters/bao.html\">Bao</a>, who became her best friend. She also met <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>, whose father was a <a class=\"weave-link\" href=\":weave:/locations/campus.html\">Cal</a> donor, and they became fast friends, bonding over their shared secret of powers and <a class=\"weave-link\" href=\":weave:/locations/campus.html\">Cal</a>. In her senior year of high school she dated <a class=\"weave-link\" href=\":weave:/characters/dick.html\">Dick</a>, who was already at <a class=\"weave-link\" href=\":weave:/locations/campus.html\">Cal</a> as a freshman. But when he began to experiment with the local radicals, she broke it off.</p>\n\n<p>He father was elevated to the position of <a class=\"weave-link\" href=\":weave:/characters/jonah.html\">Chancellor</a> at the start of the 1961 academic year, and she started classes in 1962. That year she worked an internship at the <a class=\"weave-link\" href=\":weave:/locations/rad-lab.html\">Rad Lab</a> with <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a>.</p>\n\n<h2>Recent History</h2>\n\n<p>After rekindling her relationship with <a class=\"weave-link\" href=\":weave:/characters/dick.html\">Dick</a> with the aid of <a class=\"weave-link\" href=\":weave:/episodes/s01e02_sea_of_heartbreak.html\">a certain love potion</a>, she is reconsidering her decision to break it off with him. She cannot deny her feelings for him, but finds him frustratingly lackadaisical, and his <a class=\"weave-link\" href=\":weave:/episodes/s01e04_which_way_the_wind_blows.html\">connections</a> to <a class=\"weave-link\" href=\":weave:/episodes/s01e05_big_girls_dont_cry.html\">various</a> shady characters have gotten her in trouble on multiple occasions.</p>\n\n<p>Her own obsession with finding out the origins of powers gets her into trouble, as well, especially when <a class=\"weave-link\" href=\":weave:/episodes/s01e01_no_more_heroes.html\">other people</a> <a class=\"weave-link\" href=\":weave:/episodes/s01e03_abomination.html\">with powers][s02e01] cross her radar. She [suspects</a> that <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> and possibly <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> know about people with powers, and while she does not yet know what to do about the twins, she nevertheless <a class=\"weave-link\" href=\":weave:/episodes/s01e06_hero_of_another_story.html\">deals with the aftermath</a> of their handiwork, and is scared that doing so will become increasingly impossible. To find out more, she has <a class=\"weave-link\" href=\":weave:/episodes/s01e09_reflections.html\">allied herself</a> with <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus Krieg</a>, but she knows that he is acting in his interests and not hers, so she is trying to be careful.</p>\n\n<p>Since her father&#39;s <a class=\"weave-link\" href=\":weave:/episodes/s01e11_little_truths_little_lies.html\">assassination</a> in 1963, she has been trying to figure out how to live in a place so closely connected to his memory. She flirted with the idea of leaving to <a class=\"weave-link\" href=\":weave:/episodes/s02e02_the_happiest_place_on_earth.html\">join the civil rights movement</a>, but the events at Birmingham convinced her that her presence is a distraction from the movement.</p>\n\n<h2>Powers</h2>\n\n<p>Chava is intimately connected to the memories of those around her. Other people&#39;s memories often intrude into her mind without her having to do anything. Although she has learned to block them out most of the time, she still sees some intense memories unbidden, especially when she is distracted or asleep. When she is near someone, a little focus allows her to reach out and inspect their memories without their knowledge. More recently, she has had to figure out how to <a class=\"weave-link\" href=\":weave:/episodes/s01e03_abomination.html\">muddle</a> the memories of others– which she has used to cover her tracks when she and <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> have been a little more obvious than she would like– and how to <a class=\"weave-link\" href=\":weave:/episodes/s01e05_big_girls_dont_cry.html\">flood</a> their memories, which confuses and incapacitates them.</p>\n\n<h2>Stats</h2>\n\n<h3>Drives</h3>\n\n<ul>\n<li>d6 <strong>Duty</strong> My parents sacrificed to give me this opportunity</li>\n<li>d4 <strong>Glory</strong> The work is more important than the workers</li>\n<li>d8 <strong>Justice</strong> Equality is ours for the taking</li>\n<li>d4 <strong>Love</strong> My heart only makes mistakes</li>\n<li>d8 <strong>Power</strong> The powerful need to be checked</li>\n<li>d12 <strong>Truth</strong> No one keeps secrets from me</li>\n</ul>\n\n<h3>Relationships</h3>\n\n<ul>\n<li>d8 <strong><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></strong> needs to stop being a good soldier</li>\n<li>d8 <strong><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a></strong> needs to be pushed to reach his potential</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a></strong> must be protected from this craziness</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/bao.html\">Bao</a></strong> is a moth to a flame</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/dick.html\">Dick</a></strong> has good intentions but bad instincts</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/jonah.html\">Jonah</a></strong> already has enough to deal with</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a></strong> is useful but dangerous</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a></strong> is too quick to jump into the spotlight</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a></strong> knows the ropes</li>\n</ul>\n\n<h3>Assets</h3>\n\n<ul>\n<li>d10 <strong>Telepathy</strong>, via <code>Collective Unconscious</code>, but limited by <code>Strong Emotions</code></li>\n<li>d4 <strong>Object Read</strong>, via <code>Collective Unconscious</code>, but limited by <code>Strong Emotions</code></li>\n<li>d8 <strong>On a Mission</strong></li>\n<li>d8 <strong>Genius</strong></li>\n<li>d4 <strong>Willful</strong></li>\n<li>d8 <strong><a class=\"weave-link\" href=\":weave:/locations/campus.html\">Cal</a></strong>, her home (research, resources)</li>\n</ul>\n",
+        "metadata": {
+          "title": "Chava Meyer",
+          "image": "images/s01e01/characters/chava.png",
+          "status": "Lead",
+          "actor": "Lea Michele",
+          "player": "Seth A. Roby"
+        }
       }
     },
     "characters/dick.html": {
@@ -2477,6 +2779,9 @@
           "status": "Extra",
           "actor": "Ryan Hansen"
         }
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "characters/jonah.html": {
@@ -2570,6 +2875,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "characters/marcus.html": {
@@ -2644,6 +2952,16 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "data": "<p>Marcus is an inventor and a millionaire many times over, and has used his wealth to great purpose. He is one of <a class=\"weave-link\" href=\":weave:/locations/campus.html\">Cal</a>&#39;s largest donors, and uses his considerable talents to consult with the local FBI.</p>\n\n<h2>Background</h2>\n\n<p>Marcus has long run the very profitable Krieg Industries.</p>\n\n<p>He adopted an infant <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> through his miltary contacts.</p>\n\n<h2>Recent History</h2>\n\n<p>Some time ago he hired <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam Smith</a>, and she is often at his side or tending to his many businesses, as when she helped <a class=\"weave-link\" href=\":weave:/episodes/s01e03_abomination.html\">dispose</a> of <a class=\"weave-link\" href=\":weave:/extras/timothy_simmons.html\">Timothy Simmons</a> on Marcus&#39; orders.</p>\n\n<p>When <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> was <a class=\"weave-link\" href=\":weave:/episodes/s01e07_dancing_with_the_stars.html\">caught</a> sneaking into the FBI Headquarters for unknown reasons, Marcus began to wonder what was really going on with his adopted son. He <a class=\"weave-link\" href=\":weave:/episodes/s01e08_nibelung.html\">sent</a> the lad to Germany to find out more, and ended up <a class=\"weave-link\" href=\":weave:/episodes/s01e09_reflections.html\">recruiting</a> <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>, either as a spy on his son or as a resource for some other ends… or both.</p>\n\n<h2>Stats</h2>\n\n<h3>Drives</h3>\n\n<ul>\n<li>d6 <strong>Duty</strong> A bright future requires sacrifice</li>\n<li>d12 <strong>Glory</strong> My work will be remembered long after I&#39;m gone</li>\n<li>d4 <strong>Justice</strong> Artificial structures we create to encourage harmonious relations. Simply put, I won&#39;t stab you if you don&#39;t stab me</li>\n<li>d4 <strong>Love</strong> A necessary biological urge for the preservation of the species, but something I&#39;ve transcended</li>\n<li>d10 <strong>Power</strong> Knowlege is power</li>\n<li>d6 <strong>Truth</strong> It&#39;s best if lesser minds don&#39;t know</li>\n</ul>\n\n<h3>Relationships</h3>\n\n<ul>\n<li>d10 <strong><a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a></strong> A potential protege, but more analysis is necessary</li>\n<li>d8 <strong><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a></strong> Useful. Pity he&#39;s not that bright.</li>\n<li>d8 <strong><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a></strong> Interesting. So much more than she pretends to be</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/jonah.html\">Jonah</a></strong> Annoying, but necessary for now</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></strong> Some tools are expendable</li>\n</ul>\n\n<h3>Assets</h3>\n\n<ul>\n<li>d12 <strong>Connected</strong></li>\n<li>d10 <strong>Big Brother</strong></li>\n<li>d8 <strong>Genius</strong></li>\n<li>d8 <strong>Manipulative</strong></li>\n<li>d8 <strong>Mastermind</strong></li>\n<li>d12 <strong><a class=\"weave-link\" href=\":weave:/episodes/s01e08_nibelung.html\">Nibelung</a></strong>, his life&#39;s work (resources; research)</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/locations/fbi-hq.html\">FBI HQ</a></strong>, his day job (security; investigation)</li>\n</ul>\n",
+        "metadata": {
+          "title": "Marcus Krieg",
+          "abbreviation": "marcus",
+          "image": "images/s01e01/marcus.png",
+          "status": "Extra",
+          "actor": "Christoph Waltz"
+        }
       }
     },
     "characters/orson.html": {
@@ -2779,6 +3097,16 @@
       },
       "s02e03": {
         "data": "<p>Orson is a freshman at <a class=\"weave-link\" href=\":weave:/locations/campus.html\">Cal</a>, and a <a class=\"weave-link\" href=\":weave:/episodes/s01e08_nibelung.html\">Nibelung</a> Orphan who has the power to cloud mens&#39; minds and make himself invisible, which he does so effortlessly that many people never notice him in the first place. He is somewhat concerned that his continued use of his powers is changing him, as he often later <a class=\"weave-link\" href=\":weave:/episodes/s01e02_sea_of_heartbreak.html\">regrets</a> the actions he takes while invisible.</p>\n\n<h2>Background</h2>\n\n<p>His adopted father is the millionaire <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus Krieg</a>, who often seems rather disappointed in his son. He sometimes <a class=\"weave-link\" href=\":weave:/episodes/s01e03_abomination.html\">seems</a> to be satisfied, but that may be <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a> using the boy… or perhaps preparing him.</p>\n\n<p>He has been friends with <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> and her friend <a class=\"weave-link\" href=\":weave:/characters/bao.html\">Bao</a> since High School. <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> is his confidant with regard to his powers, and he is hers. <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>&#39;s ex-boyfriend <a class=\"weave-link\" href=\":weave:/characters/dick.html\">Dick</a> has taken a liking to Orson, and is often trying to rope him into social situations and other outings, despite Orson&#39;s complete lack of enthusiasm.</p>\n\n<h2>Recent History</h2>\n\n<p>He was once <a class=\"weave-link\" href=\":weave:/episodes/s01e01_no_more_heroes.html\">attacked</a> by <a class=\"weave-link\" href=\":weave:/extras/jonathan_struthers.html\">Jonathan Struthers</a>, apparently because of their shared history in the <a class=\"weave-link\" href=\":weave:/episodes/s01e08_nibelung.html\">Nibelung</a> system, but Struthers&#39; true motives– and his connection with <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a>– remain murky.</p>\n\n<p>When he was <a class=\"weave-link\" href=\":weave:/episodes/s01e07_dancing_with_the_stars.html\">caught</a> trying to sneak into <a class=\"weave-link\" href=\":weave:/locations/fbi-hq.html\">FBI HQ</a>, his father was none too pleased. To get back in <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>&#39; good graces, Orson convinced his friends to take a <a class=\"weave-link\" href=\":weave:/episodes/s01e08_nibelung.html\">trip</a> to Germany and find out more about his past.</p>\n\n<p>He recently <a class=\"weave-link\" href=\":weave:/episodes/s01e02_sea_of_heartbreak.html\">became aware][s01e09] that Bao has [long</a> <a class=\"weave-link\" href=\":weave:/episodes/s01e06_hero_of_another_story.html\">harbored</a> a crush on him, but he has no idea what he should do about it.</p>\n\n<p>He and <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> had a <a class=\"weave-link\" href=\":weave:/episodes/s02e01_faster_than_a_speeding_bullet.html\">disagreement</a> over a package meant for her but delivered to him, and neither of them has forgiven the other for it.</p>\n\n<h2>Powers</h2>\n\n<p>Orson can cloud mens&#39; minds to wrap himself in the shadows, becoming invisible. When he does so he affects his &quot;Hero Voice&quot; to talk– a deep growl instead of his usual subdued mumbling. He also tends to lose himself in his &quot;character&quot;, saying and doing things that he would never do when visible. He often wonders why this is, and how– and if– he can better control himself.</p>\n\n<h2>Stats</h2>\n\n<h3>Drives</h3>\n\n<ul>\n<li>d4 <strong>Duty</strong> Character is doing what you don&#39;t want to but know you should do</li>\n<li>d4 <strong>Glory</strong> I am a fly on the wall</li>\n<li>d10 <strong>Justice</strong> The weed of crime bears bitter fruit</li>\n<li>d4 <strong>Love</strong> Why does everybody want to kick my ass?</li>\n<li>d6 <strong>Power</strong> Can it be controlled?</li>\n<li>d12 <strong>Truth</strong> The truth is out there</li>\n</ul>\n\n<h3>Relationships</h3>\n\n<ul>\n<li>d10 <strong><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a></strong> Keep Your Friends Close…</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></strong> Misery loves company</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a></strong> I trust her, but should I?</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a></strong> Idiocy, like justice, is blind</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/dick.html\">Dick</a></strong> Thorn in my side</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a></strong> When the wind is southerly</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/characters/bao.html\">Bao</a></strong> New horizons</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a></strong> is one of dad&#39;s lackeys</li>\n</ul>\n\n<h3>Assets</h3>\n\n<ul>\n<li>d8 <strong>Invisible</strong>, via <code>Clouding Minds</code>, but limited by <code>Mechanics</code></li>\n<li>d8 <strong><a class=\"weave-link\" href=\":weave:/episodes/s01e08_nibelung.html\">Nibelung</a> Heritage</strong></li>\n<li>d4 <strong>Wealthy</strong></li>\n<li>d6 <strong>Sneaky</strong></li>\n<li>d6 <strong>Marksman</strong></li>\n<li>d6 <strong>Vicious</strong></li>\n<li>d6 <strong>Off-<a class=\"weave-link\" href=\":weave:/locations/campus.html\">Campus</a> House</strong>, at his disposal (sanctuary, armory)</li>\n</ul>\n",
+        "metadata": {
+          "title": "Orson Krieg",
+          "image": "images/s01e01/orson.png",
+          "status": "Lead",
+          "actor": "DJ Qualls",
+          "player": "Morgan Stites"
+        }
+      },
+      "s02e04": {
+        "data": "<p>Orson is a freshman at <a class=\"weave-link\" href=\":weave:/locations/campus.html\">Cal</a>, and a <a class=\"weave-link\" href=\":weave:/episodes/s01e08_nibelung.html\">Nibelung</a> Orphan who has the power to cloud mens&#39; minds and make himself invisible, which he does so effortlessly that many people never notice him in the first place. He is somewhat concerned that his continued use of his powers is changing him, as he often later <a class=\"weave-link\" href=\":weave:/episodes/s01e02_sea_of_heartbreak.html\">regrets</a> the actions he takes while invisible.</p>\n\n<h2>Background</h2>\n\n<p>His adopted father is the millionaire <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus Krieg</a>, who often seems rather disappointed in his son. He sometimes <a class=\"weave-link\" href=\":weave:/episodes/s01e03_abomination.html\">seems</a> to be satisfied, but that may be <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a> using the boy… or perhaps preparing him.</p>\n\n<p>He has been friends with <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> and her friend <a class=\"weave-link\" href=\":weave:/characters/bao.html\">Bao</a> since High School. <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> is his confidant with regard to his powers, and he is hers. <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>&#39;s ex-boyfriend <a class=\"weave-link\" href=\":weave:/characters/dick.html\">Dick</a> has taken a liking to Orson, and is often trying to rope him into social situations and other outings, despite Orson&#39;s complete lack of enthusiasm.</p>\n\n<h2>Recent History</h2>\n\n<p>He was once <a class=\"weave-link\" href=\":weave:/episodes/s01e01_no_more_heroes.html\">attacked</a> by <a class=\"weave-link\" href=\":weave:/extras/jonathan_struthers.html\">Jonathan Struthers</a>, apparently because of their shared history in the <a class=\"weave-link\" href=\":weave:/episodes/s01e08_nibelung.html\">Nibelung</a> system, but Struthers&#39; true motives– and his connection with <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a>– remain murky.</p>\n\n<p>When he was <a class=\"weave-link\" href=\":weave:/episodes/s01e07_dancing_with_the_stars.html\">caught</a> trying to sneak into <a class=\"weave-link\" href=\":weave:/locations/fbi-hq.html\">FBI HQ</a>, his father was none too pleased. To get back in <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>&#39; good graces, Orson convinced his friends to take a <a class=\"weave-link\" href=\":weave:/episodes/s01e08_nibelung.html\">trip</a> to Germany and find out more about his past.</p>\n\n<p>He recently <a class=\"weave-link\" href=\":weave:/episodes/s01e02_sea_of_heartbreak.html\">became aware][s01e09] that Bao has [long</a> <a class=\"weave-link\" href=\":weave:/episodes/s01e06_hero_of_another_story.html\">harbored</a> a crush on him, but he has no idea what he should do about it.</p>\n\n<p>He and <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> had a <a class=\"weave-link\" href=\":weave:/episodes/s02e01_faster_than_a_speeding_bullet.html\">disagreement</a> over a package meant for her but delivered to him, and neither of them has forgiven the other for it.</p>\n\n<h2>Powers</h2>\n\n<p>Orson can cloud mens&#39; minds to wrap himself in the shadows, becoming invisible. When he does so he affects his &quot;Hero Voice&quot; to talk– a deep growl instead of his usual subdued mumbling. He also tends to lose himself in his &quot;character&quot;, saying and doing things that he would never do when visible. He often wonders why this is, and how– and if– he can better control himself.</p>\n\n<h2>Stats</h2>\n\n<h3>Drives</h3>\n\n<ul>\n<li>d4 <strong>Duty</strong> Character is doing what you don&#39;t want to but know you should do</li>\n<li>d4 <strong>Glory</strong> I am a fly on the wall</li>\n<li>d10 <strong>Justice</strong> The weed of crime bears bitter fruit</li>\n<li>d4 <strong>Love</strong> Why does everybody want to kick my ass?</li>\n<li>d8 <strong>Power</strong> Can it be controlled?</li>\n<li>d12 <strong>Truth</strong> The truth is out there</li>\n</ul>\n\n<h3>Relationships</h3>\n\n<ul>\n<li>d10 <strong><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a></strong> Keep Your Friends Close…</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></strong> Every rose has its thorn</li>\n<li>d8 <strong><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a></strong> A friend in need?</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a></strong> Idiocy, like justice, is blind</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/dick.html\">Dick</a></strong> Maybe not such a <a class=\"weave-link\" href=\":weave:/characters/dick.html\">dick</a></li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a></strong> When the wind is southerly</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/characters/bao.html\">Bao</a></strong> New horizons</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a></strong> is one of dad&#39;s minions</li>\n</ul>\n\n<h3>Assets</h3>\n\n<ul>\n<li>d8 <strong>Invisible</strong>, via <code>Clouding Minds</code>, but limited by <code>Mechanics</code></li>\n<li>d10 <strong><a class=\"weave-link\" href=\":weave:/episodes/s01e08_nibelung.html\">Nibelung</a> Heritage</strong></li>\n<li>d4 <strong>Wealthy</strong></li>\n<li>d6 <strong>Sneaky</strong></li>\n<li>d4 <strong>Marksman</strong></li>\n<li>d6 <strong>Vicious</strong></li>\n<li>d6 <strong>Off-<a class=\"weave-link\" href=\":weave:/locations/campus.html\">Campus</a> House</strong>, at his disposal (sanctuary, armory)</li>\n</ul>\n",
         "metadata": {
           "title": "Orson Krieg",
           "image": "images/s01e01/orson.png",
@@ -2926,6 +3254,17 @@
           "actor": "Jensen Ackles",
           "player": "Andrew Ardisone"
         }
+      },
+      "s02e04": {
+        "data": "<p>Richard is an undercover FBI agent on the lookout for metahumans, and he&#39;s finding more than he wants to. He is also the FBI&#39;s <a class=\"weave-link\" href=\":weave:/episodes/s01e03_abomination.html\">newly-appointed</a> special liaison officer to the <a class=\"weave-link\" href=\":weave:/locations/kriemhild.html\">Kriemhild</a> Project, and the <a class=\"weave-link\" href=\":weave:/episodes/s01e07_dancing_with_the_stars.html\">designated</a> handler for <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>.</p>\n\n<h2>Background</h2>\n\n<p>Richard and <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> are twins, but their methods differ. After a tragedy in their past, Richard joined the FBI, while <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> went to work for <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus Krieg</a>.</p>\n\n<p>He used to date <a class=\"weave-link\" href=\":weave:/characters/bao.html\">Bao</a>, but they <a class=\"weave-link\" href=\":weave:/episodes/s01e02_sea_of_heartbreak.html\">broke up</a> some time ago. After <a class=\"weave-link\" href=\":weave:/episodes/s01e02_sea_of_heartbreak.html\">trying</a> to rekindle their romance, he eventually <a class=\"weave-link\" href=\":weave:/episodes/s01e06_hero_of_another_story.html\">gave up</a>.</p>\n\n<h2>Recent History</h2>\n\n<p>He has become quite close to both <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> and <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>, and is very upset when they <a class=\"weave-link\" href=\":weave:/episodes/s01e04_which_way_the_wind_blows.html\">get into harm&#39;s way</a>, and gets <a class=\"weave-link\" href=\":weave:/episodes/s01e05_big_girls_dont_cry.html\">especially upset</a> when people like <a class=\"weave-link\" href=\":weave:/characters/dick.html\">Dick</a> push them into harms way. He remains unaware of <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>&#39;s powers, but suspects <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> might be hiding some. It does not help that <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> and <a class=\"weave-link\" href=\":weave:/characters/bao.html\">Bao</a> <a class=\"weave-link\" href=\":weave:/episodes/s01e09_reflections.html\">might be seeing each other</a>.</p>\n\n<p>He has <a class=\"weave-link\" href=\":weave:/episodes/s01e07_dancing_with_the_stars.html\">pledged</a> to help <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> in whatever way he can, and has been <a class=\"weave-link\" href=\":weave:/episodes/s01e11_little_truths_little_lies.html\">training</a> her as an agent. He has recently discovered that disavowed CIA agent <a class=\"weave-link\" href=\":weave:/characters/axel.html\">Axel</a> had possible connections to the King&#39;s assassination. When he escorted <a class=\"weave-link\" href=\":weave:/characters/denali.html\">Prince Denali</a> to Disneyland and the prince&#39;s bodyguard tried to read Richard&#39;s mind, Richard noticed and suspected an attack, so cut the trip short. When <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> told him the source of the attack he was none too pleased.</p>\n\n<p>He has captured <a class=\"weave-link\" href=\":weave:/episodes/s01e01_no_more_heroes.html\">one confirmed</a> metahuman: <a class=\"weave-link\" href=\":weave:/extras/jonathan_struthers.html\">Jonathan Struthers</a>, who used his contol of fire to attack Richard&#39;s friend <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>. He knows about but is hiding another metahuman: <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry West</a>, who came to him for help after he gained his powers. His sister <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> <a class=\"weave-link\" href=\":weave:/episodes/s01e03_abomination.html\">enlisted his help</a> with yet another metahuman, <a class=\"weave-link\" href=\":weave:/extras/timothy_simmons.html\">Timothy Simmons</a>, who had volunteered to become a super-soldier and instead became an <a class=\"weave-link\" href=\":weave:/episodes/s01e03_abomination.html\">abomination</a>. When <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a> Kreig ordered him eliminated and Richard helped <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> to do so, Richard was brought into the <a class=\"weave-link\" href=\":weave:/locations/kriemhild.html\">Kriemhild</a> Project as an asset. After being <a class=\"weave-link\" href=\":weave:/episodes/s01e06_hero_of_another_story.html\">alerted to her existence</a>, he now visits Timothy&#39;s daughter <a class=\"weave-link\" href=\":weave:/extras/anastasia_simmons.html\">Anastasia Simmons</a> somewhat regularly.</p>\n\n<p>His beat on <a class=\"weave-link\" href=\":weave:/locations/campus.html\">campus</a> also entwines him with <a class=\"weave-link\" href=\":weave:/episodes/s01e02_sea_of_heartbreak.html\">other</a> matters of less import, as well as some of <a class=\"weave-link\" href=\":weave:/episodes/s01e04_which_way_the_wind_blows.html\">great import</a>, but he remains focused on his core mission of finding metahumans. After one too many close calls, <a class=\"weave-link\" href=\":weave:/characters/rob.html\">Rob</a> has provided Richard with a variety of surveilance mechanisms that should help him in the field.</p>\n\n<p>His and <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a>&#39;s recent <a class=\"weave-link\" href=\":weave:/episodes/s01e03_abomination.html\">work</a> <a class=\"weave-link\" href=\":weave:/episodes/s01e08_nibelung.html\">together</a> has been fruitful, and Richard is beginning to see their relationship differently.</p>\n\n<h2>Stats</h2>\n\n<h3>Drives</h3>\n\n<ul>\n<li>d8 <strong>Duty</strong> I make the hard choices for others</li>\n<li>d4 <strong>Glory</strong> No glory for the grunt</li>\n<li>d12 <strong>Justice</strong> I am the scales of justice</li>\n<li>d6 <strong>Love</strong> Make my mother proud</li>\n<li>d8 <strong>Power</strong> With great power comes great responsibility</li>\n<li>d4 <strong>Truth</strong> The truth in the wrong hands</li>\n</ul>\n\n<h3>Relationships</h3>\n\n<ul>\n<li>d12 <strong><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a></strong> is as stubborn as a mule</li>\n<li>d10 <strong><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a></strong> is more than meets the eye</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a></strong> has earned my trust</li>\n<li>d10 <strong><a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a></strong> is a lost soul</li>\n<li>d8 <strong><a class=\"weave-link\" href=\":weave:/characters/bao.html\">Bao</a></strong> is the one that could have been</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/dick.html\">Dick</a></strong> drags others down</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a></strong> is a mystery to be solved</li>\n</ul>\n\n<h3>Gear</h3>\n\n<ul>\n<li>d8 <strong>Super Senses</strong></li>\n<li>d4 <strong>Cybernetic Heritage</strong></li>\n</ul>\n\n<h3>Assets</h3>\n\n<ul>\n<li>d6 <strong>Heroic Reputation</strong></li>\n<li>d6 <strong>Daring</strong></li>\n<li>d10 <strong>Marksman</strong></li>\n<li>d8 <strong>Soldier</strong></li>\n<li>d6 <strong>FBI Headquarters</strong>, his workplace</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/locations/kriemhild.html\">Kriemhild</a> Project</strong>, his special assignment</li>\n</ul>\n",
+        "metadata": {
+          "title": "Richard Smith",
+          "image": "images/s01e01/richard.png",
+          "replaces": "Agent Smith",
+          "status": "Lead",
+          "actor": "Jensen Ackles",
+          "player": "Andrew Ardisone"
+        }
       }
     },
     "characters/rob.html": {
@@ -2982,6 +3321,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "characters/sam.html": {
@@ -3068,6 +3410,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "episodes/s01e01_no_more_heroes.html": {
@@ -3121,6 +3466,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "extras/jonathan_struthers.html": {
@@ -3171,6 +3519,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "locations/campus.html": {
@@ -3225,6 +3576,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "locations/orphanage.html": {
@@ -3274,6 +3628,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "episodes/s01e02_sea_of_heartbreak.html": {
@@ -3324,6 +3681,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "episodes/s01e03_abomination.html": {
@@ -3371,6 +3731,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "locations/gok.html": {
@@ -3414,6 +3777,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "episodes/s01e04_which_way_the_wind_blows.html": {
@@ -3458,6 +3824,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "extras/amanda_holgins.html": {
@@ -3501,6 +3870,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "extras/timothy_simmons.html": {
@@ -3542,6 +3914,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "locations/fbi-hq.html": {
@@ -3587,6 +3962,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "locations/kriemhild.html": {
@@ -3627,6 +4005,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "episodes/s01e05_big_girls_dont_cry.html": {
@@ -3668,6 +4049,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "episodes/s01e06_hero_of_another_story.html": {
@@ -3706,6 +4090,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "extras/anastasia_simmons.html": {
@@ -3738,6 +4125,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "characters/eirwyn.html": {
@@ -3812,6 +4202,17 @@
           "actor": "Jennifer Lawrence",
           "player": "Sam Smith"
         }
+      },
+      "s02e04": {
+        "data": "<p>A Yuan&#39;ti visiting Earth from her native world, Eirwyn is on an undercover mission to find the people who killed her King.</p>\n\n<h2>Background</h2>\n\n<p>Eirwyn has visited Earth before, and during that visit she became good friends with <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>. She also befriended <a class=\"weave-link\" href=\":weave:/characters/axel.html\">Axel</a>, who unbeknownst to Eirwyn, was involved in the King&#39;s assassination.</p>\n\n<h2>Recent History</h2>\n\n<p>When the King was killed <a class=\"weave-link\" href=\":weave:/episodes/s01e07_dancing_with_the_stars.html\">on her watch</a>, <a class=\"weave-link\" href=\":weave:/characters/denali.html\">Prince Denali</a> tasked her with finding the murderers, who had fled to Earth. When she arrived, the FBI– who have worked with her people before– assigned <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> as her protector, though he quickly learned that she can protect herself quite capably. She was part of the group that took <a class=\"weave-link\" href=\":weave:/characters/denali.html\">Prince Denali</a> on a short-lived visit to Disneyland, and while there she was surprised to find <a class=\"weave-link\" href=\":weave:/characters/denali.html\">Denali</a>&#39;s bodyguard trying to read <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>&#39;s mind.</p>\n\n<p>She and <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> had a <a class=\"weave-link\" href=\":weave:/episodes/s02e01_faster_than_a_speeding_bullet.html\">disagreement</a> over a package meant for her but delivered to him, and neither of them has forgiven the other for it.</p>\n\n<h2>Stats</h2>\n\n<h3>Drives</h3>\n\n<ul>\n<li>d10 <strong>Duty</strong> Whatever it takes</li>\n<li>d6 <strong>Glory</strong> I work in the shadows</li>\n<li>d8 <strong>Justice</strong> Long arm of the law</li>\n<li>d4 <strong>Love</strong> is a distraction</li>\n<li>d4 <strong>Power</strong> corrupts</li>\n<li>d10 <strong>Truth</strong> is freedom</li>\n</ul>\n\n<h3>Relationships</h3>\n\n<ul>\n<li>d8 <strong><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a></strong> I left her to help the crown</li>\n<li>d8 <strong><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></strong> Powerful ally</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a></strong> potential ally</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/characters/jonah.html\">Jonah</a></strong> trusted confidant</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a></strong> old coworker</li>\n</ul>\n\n<h3>Assets</h3>\n\n<ul>\n<li>d8 <strong>Telekinesis</strong>, via <code>Heritage</code>, but limited by <code>concentration</code></li>\n<li>d6 <strong>Telepathy</strong>, via <code>Heritage</code>, but limited by <code>line of sight</code></li>\n<li>d6 <strong>Luck</strong>, via <code>Gear</code>, in the form of a <code>probabilty coin</code></li>\n<li>d6 <strong>Yuan&#39;ti Heritage</strong></li>\n<li>d6 <strong>Attractive</strong></li>\n<li>d8 <strong>Sneaky</strong></li>\n<li>d10 <strong><a class=\"weave-link\" href=\":weave:/characters/denali.html\">Prince Denali</a></strong>, her real employer. Specialties: <em>leadership</em> and <em>confidant</em>.</li>\n<li>d8 <strong>Java Stop</strong>, her job. Specialties: <em>safety</em> and <em>information</em>.</li>\n</ul>\n",
+        "metadata": {
+          "title": "Eirwyn Fell",
+          "image": "images/s01e07/eirwyn.png",
+          "replaces": "Eirwynfell",
+          "status": "Lead",
+          "actor": "Jennifer Lawrence",
+          "player": "Sam Smith"
+        }
       }
     },
     "episodes/s01e07_dancing_with_the_stars.html": {
@@ -3847,6 +4248,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "episodes/s01e08_nibelung.html": {
@@ -3879,6 +4283,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "characters/ada.html": {
@@ -3913,6 +4320,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "episodes/s01e09_reflections.html": {
@@ -3942,6 +4352,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "episodes/s01e10_rule_of_the_road.html": {
@@ -3968,6 +4381,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "characters/axel.html": {
@@ -4000,6 +4416,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "characters/brunette.html": {
@@ -4020,6 +4439,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "characters/denali.html": {
@@ -4055,6 +4477,9 @@
           "status": "Extra",
           "actor": "Milo Ventimiglia"
         }
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "episodes/s01e11_little_truths_little_lies.html": {
@@ -4078,6 +4503,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "characters/barry.html": {
@@ -4102,7 +4530,7 @@
         }
       },
       "s02e03": {
-        "data": "<p>Barry is a junior who worked at the <a class=\"weave-link\" href=\":weave:/locations/rad-lab.html\">Rad Lab</a> until it <a class=\"weave-link\" href=\":weave:/episodes/s02e01_faster_than_a_speeding_bullet.html\">exploded</a> while he was inside. When he awoke he found that he had super-speed, and he&#39;s trying to come to terms with this new reality.</p>\n\n<h2>Recent History</h2>\n\n<p>After the <a class=\"weave-link\" href=\":weave:/locations/rad-lab.html\">Rad Lab</a> <a class=\"weave-link\" href=\":weave:/episodes/s02e01_faster_than_a_speeding_bullet.html\">explosion</a>, Barry followed the advice of <a class=\"weave-link\" href=\":weave:/characters/claudia.html\">Claudia</a> and reached out to <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> for help. In doing so, he let <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> and <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> know about his powers. When he visited Birmingham, his actions to protect the marchers <a class=\"weave-link\" href=\":weave:/episodes/s02e02_the_happiest_place_on_earth.html\">revealed</a> his existence– but not his identity– to the world.</p>\n\n<h2>Stats</h2>\n\n<h3>Drives</h3>\n\n<ul>\n<li>d8 <strong>Duty</strong> I try to keep my promises</li>\n<li>d8 <strong>Glory</strong> If you&#39;ve got the stuff, you gotta show it off</li>\n<li>d4 <strong>Justice</strong> I don&#39;t recognize your laws</li>\n<li>d4 <strong>Love</strong> A weakness</li>\n<li>d10 <strong>Power</strong> I can&#39;t be bought</li>\n<li>d8 <strong>Truth</strong> Not everyone needs to hear the truth</li>\n</ul>\n\n<h3>Relationships</h3>\n\n<ul>\n<li>d10 <strong><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a></strong> Best friend</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></strong> Trustworthy agent</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a></strong> A stranger</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a></strong> Cool co-worker</li>\n</ul>\n\n<h3>Assets</h3>\n\n<ul>\n<li>d12 <strong>Super Speed</strong>, via <code>Running fast</code>, but limited by <code>voracious appetite</code>. Special effects: Perform multiple actions in the same time normal people perform one; Join or switch scenes</li>\n<li>d12 <strong>Regeneration</strong>, via <code>Time</code>, but limited by <code>voracious appetite</code></li>\n<li>d12 <strong>Agile</strong></li>\n<li>d8 <strong>Genius</strong></li>\n<li>d8 <strong>Smartass</strong></li>\n<li>d8 <strong>Likable</strong></li>\n<li>d8 <strong><a class=\"weave-link\" href=\":weave:/characters/pez.html\">Pez</a></strong>, his friend</li>\n<li>d10 <strong><a class=\"weave-link\" href=\":weave:/locations/rad-lab.html\">Rad Lab</a></strong>, his workplace</li>\n<li>d4 <strong>Secret Dorm Room</strong>, his hideout</li>\n</ul>\n",
+        "data": "<p>Barry is a junior who worked at the <a class=\"weave-link\" href=\":weave:/locations/rad-lab.html\">Rad Lab</a> until it <a class=\"weave-link\" href=\":weave:/episodes/s02e01_faster_than_a_speeding_bullet.html\">exploded</a> while he was inside. When he awoke he found that he had super-speed, and he&#39;s trying to come to terms with this new reality.</p>\n\n<h2>Recent History</h2>\n\n<p>After the <a class=\"weave-link\" href=\":weave:/locations/rad-lab.html\">Rad Lab</a> <a class=\"weave-link\" href=\":weave:/episodes/s02e01_faster_than_a_speeding_bullet.html\">explosion</a>, Barry followed the advice of <a class=\"weave-link\" href=\":weave:/characters/claudia.html\">Claudia</a> and reached out to <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> for help. In doing so, he let <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> and <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> know about his powers. When he visited Birmingham, his actions to protect the marchers <a class=\"weave-link\" href=\":weave:/episodes/s02e02_the_happiest_place_on_earth.html\">revealed</a> his existence– but not his identity– to the world.</p>\n\n<h2>Stats</h2>\n\n<h3>Drives</h3>\n\n<ul>\n<li>d8 <strong>Duty</strong> I try to keep my promises</li>\n<li>d8 <strong>Glory</strong> If you&#39;ve got the stuff, you gotta show it off</li>\n<li>d4 <strong>Justice</strong> I don&#39;t recognize your laws</li>\n<li>d4 <strong>Love</strong> A weakness</li>\n<li>d10 <strong>Power</strong> I can&#39;t be bought</li>\n<li>d8 <strong>Truth</strong> Not everyone needs to hear the truth</li>\n</ul>\n\n<h3>Relationships</h3>\n\n<ul>\n<li>d10 <strong><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a></strong> Best friend</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></strong> Trustworthy agent</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a></strong> A stranger</li>\n<li>d4 <strong><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a></strong> Cool co-worker</li>\n</ul>\n\n<h3>Assets</h3>\n\n<ul>\n<li>d12 <strong>Super Speed</strong>, via <code>Running fast</code>, but limited by <code>voracious appetite</code>. Special effects: Perform multiple actions in the same time normal people perform one; Join or switch scenes</li>\n<li>d4 <strong>Regeneration</strong>, via <code>Time</code>, but limited by <code>voracious appetite</code></li>\n<li>d12 <strong>Agile</strong></li>\n<li>d8 <strong>Genius</strong></li>\n<li>d8 <strong>Smartass</strong></li>\n<li>d8 <strong>Likable</strong></li>\n<li>d8 <strong><a class=\"weave-link\" href=\":weave:/characters/pez.html\">Pez</a></strong>, his friend</li>\n<li>d10 <strong><a class=\"weave-link\" href=\":weave:/locations/rad-lab.html\">Rad Lab</a></strong>, his workplace</li>\n<li>d4 <strong>Secret Dorm Room</strong>, his hideout</li>\n</ul>\n",
         "metadata": {
           "title": "Barry West",
           "image": "images/s02e01/characters/barry.jpg",
@@ -4110,6 +4538,9 @@
           "actor": "John Hutcherson",
           "player": "Juan Padilla"
         }
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "characters/claudia.html": {
@@ -4137,6 +4568,17 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "data": "<p><a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a>&#39;s mentor at the <a class=\"weave-link\" href=\":weave:/locations/rad-lab.html\">Rad Lab</a>, and an undercover FBI Agent working on assignment from SAC <a class=\"weave-link\" href=\":weave:/characters/rob.html\">Rob Douglas</a>. She was in the <a class=\"weave-link\" href=\":weave:/locations/rad-lab.html\">Rad Lab</a> when it exploded, and is presumed dead.</p>\n\n<h2>Stats</h2>\n\n<h3>Drives</h3>\n\n<ul>\n<li>d4 <strong>Duty</strong> Look at what it got me</li>\n<li>d10 <strong>Glory</strong> Wait&#39;ll they get a load of me</li>\n<li>d12 <strong>Justice</strong> Vengeance is mine</li>\n<li>d8 <strong>Love</strong> Makes the world go round</li>\n<li>d4 <strong>Power</strong> Is agony</li>\n<li>d4 <strong>Truth</strong> Everything is a lie</li>\n</ul>\n\n<h3>Relationships</h3>\n\n<ul>\n<li>d12 <strong><a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a></strong> (Statement deliberately hidden for now)</li>\n<li>d6 <strong><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></strong> I thought I could trust him....</li>\n</ul>\n\n<h3>Assets</h3>\n\n<ul>\n<li>d12 <strong>Blast (Heat/Radiation)</strong></li>\n<li>d6 <strong>Heat/Radiation Control</strong></li>\n<li>d8 <strong>Soldier</strong></li>\n<li>d8 <strong>Genius</strong></li>\n<li>d6 <strong>Impulsive</strong></li>\n</ul>\n",
+        "metadata": {
+          "title": "Claudia",
+          "abbreviation": "claudia",
+          "replaces": "Claudia Ramirez|Claudia",
+          "image": "images/s02e01/claudia.jpg",
+          "status": "Extra",
+          "actor": "Melissa Fumero"
+        }
       }
     },
     "characters/pez.html": {
@@ -4155,6 +4597,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "episodes/s02e01_faster_than_a_speeding_bullet.html": {
@@ -4175,6 +4620,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "locations/rad-lab.html": {
@@ -4191,6 +4639,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "episodes/s02e02_the_happiest_place_on_earth.html": {
@@ -4208,6 +4659,9 @@
       },
       "s02e03": {
         "see": "s02e02"
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "episodes/s02e03_meltdown.html": {
@@ -4222,6 +4676,9 @@
           "director": "David Burk",
           "replaces": "s2e3|s02e03|Meltdown"
         }
+      },
+      "s02e04": {
+        "see": "s02e03"
       }
     },
     "extras/emmanuel_torres.html": {
@@ -4229,6 +4686,23 @@
         "data": "<p>The man who was <a class=\"weave-link\" href=\":weave:/episodes/s01e11_little_truths_little_lies.html\">killed</a> at Mole Electronics, possibly by <a class=\"weave-link\" href=\":weave:/characters/axel.html\">Axel</a>.</p>\n",
         "metadata": {
           "title": "Emmanuel Torres"
+        }
+      },
+      "s02e04": {
+        "see": "s02e03"
+      }
+    },
+    "episodes/s02e04_cages.html": {
+      "s02e04": {
+        "data": "<div id=\"s02e04\" class=\"screenplay\">\n\n<p class=\"comment\">ACT I</p>\n\n<h2 class=\"full-slugline\">INT. HOSPITAL ROOM</h2>\n\n<p class=\"action\">We hear the operation happening before we see anything. There's the hum of machines and the beep of a heart monitor.</p>\n\n<dl>\n<dt class=\"character\">VOICE</dt>\n<dd class=\"dialogue\">There's extensive damage to the spinal column… never use these legs again… this left arm might not ever have the mobility…</dd>\n</dl>\n\n<p class=\"action\">A blurry scene fades in, first person from the bed. <a class=\"weave-link\" href=\":weave:/characters/rob.html\">Rob</a> and <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> stand in the background as the doctors do their work. The eyelids shut.</p>\n\n\n\n<h2 class=\"full-slugline\">INT. UNIVERSITY HOUSE - <a class=\"weave-link\" href=\":weave:/characters/jonah.html\">JONAH</a>'S STUDY</h2>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">Ada</a> is looking through paperwork, which covers every surface of the cluttered room. She's got a notebook open in front of her.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">ADA</a></dt>\n<dd class=\"dialogue\">Why did <a class=\"weave-link\" href=\":weave:/characters/jonah.html\">Jonah</a> never tell me about any of this?</dd>\n</dl>\n\n<p class=\"action\">We push in and see the notebook, catching the words \"<a class=\"weave-link\" href=\":weave:/characters/denali.html\">Denali</a>\" and \"Flux\", before seeing the photograph of <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> that's been taped into the book.</p>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">Ada</a> takes the picture out and examines it.</p>\n\n\n\n<h2 class=\"full-slugline\">INT. DINGY FBI INTERROGATION ROOM</h2>\n\n<dl>\n<dt class=\"character\">COULSON</dt>\n<dd class=\"dialogue\">I'm glad you've decided to join us, Mr. West. We could use someone of your skills. But if you're going to help your country, we can't have any more of this kind of incident.</dd>\n</dl>\n\n<p class=\"action\">He puts the familiar newspaper down, showing the fire truck and the blur, with the \"Comics Become Real?\" headline.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/barry.html\">BARRY</a></dt>\n<dd class=\"dialogue\">That wasn't my fault! I was just trying to save my friends, and no one even got a good shot of me. I count that a win in my book.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\">COULSON</dt>\n<dd class=\"dialogue\">You panicked the authorities. They released the dogs on that crowd because of you.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/barry.html\">BARRY</a></dt>\n<dd class=\"dialogue\">They were releasing those dogs anyway.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\">COULSON</dt>\n<dd class=\"dialogue\">You can't know that for sure. You can't protect people if you jump to conclusions, Mr. West.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/barry.html\">BARRY</a></dt>\n<dd class=\"dialogue\">I was there; I saw what was going to happen. You might guess differently behind your safe desk.</dd>\n</dl>\n\n<p class=\"action\">Coulson stands.</p>\n\n<dl>\n<dt class=\"character\">COULSON</dt>\n<dd class=\"dialogue\">This is a bad idea. I can't recommend you for field work.</dd>\n</dl>\n\n\n\n<h2 class=\"full-slugline\">INT. HOSPITAL ROOM</h2>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> stirs. Around him, <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>, <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a>, and <a class=\"weave-link\" href=\":weave:/characters/bao.html\">Bao</a> rouse from whatever they had been distracting themselves with.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"parenthetical\">(groggily)</dd>\n<dd class=\"dialogue\">Hey, everybody. We at a funeral or something? Why the long faces?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">How are you feeling, <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">Like I could run a half-mile.</dd>\n</dl>\n\n<p class=\"action\">He smiles, but no one looks happy.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">Did the doctors say anything? About when I should be out of here?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">A while.</dd>\n</dl>\n\n<p class=\"action\"><i>Andrew wants some <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> to know what <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> knows, so he rolls <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>'s d8 <b>Power</b> \"With great power comes great responsibility\" + <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>'s d6 <b><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a></b> \"has earned my trust\" + <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>'s d10 <b><a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a></b> \"is a lost soul\" for a <b>10</b>. Countered by <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d10 <b>Duty</b> \"Whatever it takes\" + <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d8 <b><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></b> \"Powerful ally\" for a <b>10</b>; tie goes to the actor, so Andrew re-rolls his pool and hands a d8 <b>Exhausted</b> to <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">It can't be that bad, right?</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> looks away.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/sam.html\">SAM</a></dt>\n<dd class=\"dialogue\">Can you lift your left arm?</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> smirks, but as he realizes that he cannot, panic spreads across his face.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">I can't. I can't lift my–</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/sam.html\">SAM</a></dt>\n<dd class=\"parenthetical\">(calmly)</dd>\n<dd class=\"dialogue\">What do you remember from the bank?</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> glances over to <a class=\"weave-link\" href=\":weave:/characters/bao.html\">Bao</a>.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">I was making… a deposit. I heard the door. I felt a pain in my back and then I'm here.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/sam.html\">SAM</a></dt>\n<dd class=\"dialogue\">You were shot in the robbery.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">Not the first time I've been shot. I figured.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/sam.html\">SAM</a></dt>\n<dd class=\"dialogue\">It hit your spine. You've been paralyzed.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">That's ridiculous. I…</dd>\n</dl>\n\n<p class=\"action\">He squirms, using his weight to change position. He gets frustrated and goes too fast, and almost tumbles out of bed.</p>\n\n<p class=\"action\"><i>Trouble gets <b>5</b>. <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> rolls <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d10 <b>Duty</b> \"Whatever it takes\" + <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d8 <b><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></b> \"Powerful ally\" + <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d8 <b>Telekinesis</b> for <b>16</b>.</i></p>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> rushes forward and catches him, then sits him up straight.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">I–</dd>\n</dl>\n\n<p class=\"action\">He looks around at the women, unsure of himself.</p>\n\n\n\n<h2 class=\"full-slugline\">INT. <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">MARCUS</a>' HOUSE</h2>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> enters, giving his coat to the butler. He strides down the hallway and hears voices. <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>' and… <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>?</p>\n\n<p class=\"action\"><i>Morgan wants to eavesdrop, so he rolls <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d12 <b>Truth</b> \"The truth is out there\" + <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d10 <b><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a></b> \"Keep Your Friends Close…\" + <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d6 <b>Sneaky</b> for <b>13</b>. <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a> rolls <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>'s d6 <b>Truth</b> \"It's best if lesser minds don't know\" + <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>'s d8 <b><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a></b> \"Useful. Pity he's not that bright.\" + <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>'s d10 <b>Big Brother</b> for <b>15</b>. Morgan won't give in, so he takes a d8 <b>Afraid</b>; he's not sure if he was heard or not.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">MARCUS</a></dt>\n<dd class=\"dialogue\">You've heard the latest about <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">I have. And I'm worried about him, but it can't mean that the world stops.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">MARCUS</a></dt>\n<dd class=\"dialogue\">A good way to look at it. Do you have any leads as to the attacker?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">No, but I'm working that angle. It's someone who has it out for <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a>, so it's likely one of the other two <a class=\"weave-link\" href=\":weave:/locations/rad-lab.html\">rad lab</a> researchers, both of whom were presumed dead. When I know you'll know. Did your sources find out anything about the explosion at the <a class=\"weave-link\" href=\":weave:/locations/rad-lab.html\">rad lab</a>? It's too suspicious to be an accident…</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">MARCUS</a></dt>\n<dd class=\"dialogue\">And I agree, as do my sources. No one knows what, exactly, went on that night, but no one is assuming an accident any more.</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> waits, building up confidence before asking a favor.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">Does… does <a class=\"weave-link\" href=\":weave:/locations/kriemhild.html\">Kriemhild</a> have any resources that they can use to help <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Agent Smith</a>?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">MARCUS</a></dt>\n<dd class=\"dialogue\"><a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> has already been investigating and pushing for this. There may be, but it is not a decision to make lightly.</dd>\n</dl>\n\n<p class=\"action\"><i>Seth thinks <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> would push here, so he rolls <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s d8 <b>Power</b> \"The powerful need to be checked\" (challenged) + <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s d8 <b><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></b> \"needs to stop being a good soldier\" + <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s d6 <b><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a></b> \"is useful but dangerous\", for a rather sad little <b>7</b>, with a complication.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">He's worth investing in. He's been a valuable asset in the past, and keeping him active is a smart play.</dd>\n</dl>\n\n<p class=\"action\"><i>David rolls opposition: <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>'s d6 <b>Truth</b> \"It's best if lesser minds don't know\" + <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>'s d4 <b><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></b> \"Some tools are expendable\" + <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>'s d8 <b>Manipulative</b> for… 0. David rolled three 1s.</i></p>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a> looks away, thinking. An image plays above him, a memory that <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> sees: a younger <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a> is sitting at a bedside in Nazi germany, a young blonde lady dying slowly before him. He holds her hand.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">My skills are best suited for finding the perpetrator. And I do intend to find him. And when I know, you'll know. I'll endeavor to make that soon.</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a> nods. <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> stands, and decides not to further break his concentration. She exits.</p>\n\n<p class=\"action\">As the door shuts behind her we see that <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> was standing behind it. She doesn't notice him.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">ORSON</a></dt>\n<dd class=\"dialogue\">Hi, <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>.</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> jumps, startled, and tries not to scream.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"parenthetical\">(whispering)</dd>\n<dd class=\"dialogue\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>, what the hell?! Shh!</dd>\n</dl>\n\n<p class=\"action\">She looks back at the door, making sure she didn't alarm <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>, then glances down the halls.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">Come with me; there's not much time.</dd>\n</dl>\n\n\n<p class=\"comment\">ACT II</p>\n\n<h2 class=\"full-slugline\">INT. HOSPITAL</h2>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a> enters.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">Thank god. Tell me you brought scotch.</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a> nods, and hands over the bottle.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/barry.html\">BARRY</a></dt>\n<dd class=\"dialogue\">Don't let the nurse see; she might not approve.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">Come alone?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/barry.html\">BARRY</a></dt>\n<dd class=\"dialogue\">Not exactly.</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/rob.html\">Rob</a> enters.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">What is it, <a class=\"weave-link\" href=\":weave:/characters/rob.html\">Rob</a>?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/rob.html\">ROB</a></dt>\n<dd class=\"dialogue\">I can tell from your tone that the doctor's told you.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">The doctor hasn't told me anything. The doctor is afraid of me. My sister told me.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/rob.html\">ROB</a></dt>\n<dd class=\"dialogue\">Well, I'm sorry about that. The FBI tries to take care of their own.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">And is there anything the FBI can do for me?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/rob.html\">ROB</a></dt>\n<dd class=\"dialogue\">No. No, this is beyond what our best doctors can do right now. I wish it were otherwise.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">I figured. I'd like to nap, now.</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/rob.html\">Rob</a> nods, and turns to leave.</p>\n\n<p class=\"action\"><i>Juan wants to stick around. He rolls <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a>'s d8 <b>Duty</b> \"I try to keep my promises\" + <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a>'s d6 <b><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></b> \"Trustworthy agent\" + <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a>'s d8 <b>Likeable</b> for <b>10</b>. Andrew counters with <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>'s d8 <b>Duty</b> \"I make the hard choices for others\" + <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>'s d6 <b><a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a></b> \"is a mystery to be solved\" (boosted with a plot point) + (dropping a plot point for a useful detail) d6 <b>Scotch</b> for <b>15</b>.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/barry.html\">BARRY</a></dt>\n<dd class=\"dialogue\">Don't be like that. Let me stay and keep you company.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">No, <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a>, I've got no one to blame but myself. I survived a war. Went hand to hand with korean infantry. Came back here and I survived a guy who shot fire from his hands. And then I got shot at a god damn bank. In the back. Like a coward. So if you'll excuse me, I'd like. to take. a nap.</dd>\n</dl>\n\n<p class=\"action\"><i>Andrew rerolls his pool and adds a d8 <b>Insecure</b> to <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a>'s stress pool, and  drops a plot point to <b>Stress Out</b> the speedster.</i></p>\n\n<p class=\"action\">As <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> stares intently out the window, <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a> stands up and shuffles out.</p>\n\n\n\n<h2 class=\"full-slugline\">INT. <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a>'S HOUSE</h2>\n\n<p class=\"action\">Knocking. <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> answers the door. <a class=\"weave-link\" href=\":weave:/characters/ada.html\">Ada</a>'s outside, holding a notebook and <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s picture.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">Come in. Someone was going to figure it out eventually.</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">Ada</a> enters, cautiously. She takes the proffered seat.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">Can I get you something to eat or drink?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">ADA</a></dt>\n<dd class=\"dialogue\">I want to ask for something strong, but no, let's just talk.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">Suit yourself.</dd>\n</dl>\n\n<p class=\"action\">She picks up a half-empty bottle and pours herself a glass.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">ADA</a></dt>\n<dd class=\"dialogue\">My husband is dead.</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> stops pouring.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">ADA</a></dt>\n<dd class=\"dialogue\">And these notes lead me to believe that you're connected to that.</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> pours a double.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">I was not involved in his death, if that's what you're asking. But I'm pretty sure I know who killed him.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">ADA</a></dt>\n<dd class=\"dialogue\">Who?</dd>\n</dl>\n\n<p class=\"action\"><i>David rolls trouble; it gets <b>5</b>. <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> rolls <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d10 <b>Duty</b> \"Whatever it takes\" + <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d4 <b><a class=\"weave-link\" href=\":weave:/characters/jonah.html\">Jonah</a></b> \"trusted confidant\" + <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d6 <b>Yuan'ti Heritage</b> for <b>7</b>.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">Someone you don't know. I'm looking for him already.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">ADA</a></dt>\n<dd class=\"dialogue\">Can I reconsider the drink?</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> nods, and stands to pour another. She hands it over.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">ADA</a></dt>\n<dd class=\"dialogue\">I'm worried about <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>. She's been acting… weird… for well over a year.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">What do you mean?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">ADA</a></dt>\n<dd class=\"dialogue\">It's little things, mostly, but also… she's been injured– really injured– multiple times. Once or twice you can play it off, but no one should get that hurt that regularly.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">I'm sure she's fine.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">ADA</a></dt>\n<dd class=\"dialogue\">She is not fine.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">I can watch her for you.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">ADA</a></dt>\n<dd class=\"dialogue\">I want to know what she's involved in. I want to know the truth.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">I can ask around. But honestly, I haven't really seen her in a long time. We're not as close as we were.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/ada.html\">ADA</a></dt>\n<dd class=\"dialogue\">Whatever you can do, I would appreciate. Help her, please.</dd>\n</dl>\n\n\n\n<h2 class=\"full-slugline\">INT. KRIEG GARAGE</h2>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> and <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> have found a secluded spot to chat. They sit uncomfortably.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">How much of that did you hear? I'm not asking to cover up anything; I need to know where to start so we can be quick.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">ORSON</a></dt>\n<dd class=\"dialogue\">The world doesn't stop.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">Right. It doesn't. It keeps plowing on no matter how much I'd like it to slow down. I've been working for your father. Little jobs, fact finding stuff. Trying to find out– trying to prove what we suspected.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">ORSON</a></dt>\n<dd class=\"dialogue\">And?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">And it's all true. <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> <i>does</i> work for the FBI. Your father <i>does</i> do secret research for the government's <a class=\"weave-link\" href=\":weave:/locations/kriemhild.html\">Kriemhild</a> project. <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> <i>does</i> all the dirty work we feared. And I had to keep it all from you because he made me promise not to tell you. It hurt to do it, and I'm sorry.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">ORSON</a></dt>\n<dd class=\"dialogue\">So if <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> is a danger… do we have to kill him?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">What? No! No, I'm trying to get him out.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">ORSON</a></dt>\n<dd class=\"dialogue\">And my father?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">Your father, I'm afraid, is going to be with us for some time. He's mired deep in all of this, and we'll have no hope of untangling it if he's not in the center to guide us.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">ORSON</a></dt>\n<dd class=\"dialogue\">But–</dd>\n</dl>\n\n<p class=\"action\"><i>Seth tries some <b>Stress Relief</b>; <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s pool gets <b>7</b>, while <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s d12 <b>Truth</b> \"No one keeps secrets from me\" + <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s d8 <b><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a></b> \"needs to be pushed to reach his potential\" + <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s d10 <b>Telepathy</b> gets <b>16</b>.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">We'll manage. We'll figure it out. These are institutions build of shadows, and we can hide inside as we dismantle them. We're good at that.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">ORSON</a></dt>\n<dd class=\"dialogue\">Ok. Ok. My turn. How much do you really know about your friend <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>?</dd>\n</dl>\n\n<p class=\"comment\">ACT III</p>\n\n<h2 class=\"full-slugline\">INT. HOSPITAL HALL</h2>\n\n<p class=\"action\">Determined steps as <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a> walks the hall; <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> follows.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">ORSON</a></dt>\n<dd class=\"dialogue\">How do you know <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>, dad?</dd>\n</dl>\n\n<p class=\"action\"><i>Morgan wants a bit of truth here, so rolls <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d12 <b>Truth</b> \"The truth is out there\" + <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d6 <b><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a></b> \"When the wind is southerly\" + <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d6 <b>Sneaky</b> for… <b>6</b>. <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a> doesn't want to give up anything, so rolls <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>'s d10 <b>Power</b> \"Knowlege is power\" + <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>'s d8 <b><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a></b> \"Useful. Pity he's not that bright.\" + <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>'s d8 <b>Manipulative</b> for <b>14</b>.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">MARCUS</a></dt>\n<dd class=\"dialogue\">He's done work for me before. A few times. His sister recommended him. He's also your friend, and you should pay your condolences.</dd>\n</dl>\n\n<p class=\"action\"><i>David re-rolls the pool and tosses a d10 <b>Angry</b> into <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s stress pool: <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> never gets the upper hand in this relationship.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">ORSON</a></dt>\n<dd class=\"dialogue\">OK. Work. What kind of work?</dd>\n</dl>\n\n<p class=\"action\"><i>Another tack another roll. <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d12 <b>Truth</b> \"The truth is out there\" + <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d6 <b><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a></b> \"When the wind is southerly\" + <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d6 <b>Sneaky</b> + (spending a plot point) <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d6 <b><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></b> \"Every rose has its thorn\" for <b>10</b>.</i></p>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a> inhales sharply. He stands with his hand on the door to the hospital room, blocking the way.</p>\n\n<p class=\"action\"><i>David pulls out the big guns. <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>'s d12 <b><a class=\"weave-link\" href=\":weave:/episodes/s01e08_nibelung.html\">Nibelung</a></b> + <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d10 <b>Angry</b> + <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>'s d6 <b>Truth</b> \"It's best if lesser minds don't know\" + <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>'s d8 <b><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a></b> \"Useful. Pity he's not that bright.\" + <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a>'s d8 <b>Mastermind</b> for <b>19</b>.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">MARCUS</a></dt>\n<dd class=\"dialogue\">At this point, son, there are some things you are not qualified to know. This is one of them.</dd>\n</dl>\n\n<p class=\"action\"><i>David rerolls the pool and hands over a d12 <b>Exhausted</b>.</i></p>\n\n<p class=\"action\">He enters.</p>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> is in bed, still staring out the window. The bottle of scotch sits on the bedside, nearly empty. <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a> waits for a moment, but when he senses no greeting is forthcoming he begins.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">MARCUS</a></dt>\n<dd class=\"dialogue\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>, I've come to talk to you. I've been informed of your situation. And there are people who might be able to help. But it would require a considerable expense.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">And you're wondering if I'm worth it.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">MARCUS</a></dt>\n<dd class=\"dialogue\">Yes.</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> picks up the bottle, puts the cork in it.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">It's been a long day, Mr. Krieg.</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> steps forward. He pokes at <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>'s leg.</p>\n\n<p class=\"action\"><i>Morgan wants <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> to come clean, so he rolls <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d12 <b>Truth</b> \"The truth is out there\" + <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d6 <b><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></b> \"Every rose has its thorn\" + <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d6 <b>Vicious</b> + his own d10 <b>Angry</b>, for 12.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">ORSON</a></dt>\n<dd class=\"dialogue\">Making a deposit? Really?</dd>\n</dl>\n\n<p class=\"action\"><i>Andrew doesn't care, and has <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> give in.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">No. I was an FBI agent, and I got <i>shot</i> by a <i>super powered</i> menace to society while investigating <i>super powered</i> people.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">ORSON</a></dt>\n<dd class=\"dialogue\">Apparently you were not a very good agent?</dd>\n</dl>\n\n<p class=\"action\"><i>Andrew isn't gonna let that slide. With intent to hurt, he rolls <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>'s d4 <b>Glory</b> \"No glory for the grunt\" + (challenged) <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>'s d10 <b><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a></b> \"is more than meets the eye\" + his d6 <b>Scotch</b> + <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d12 <b>Exhausted</b>, for a <b>24</b>. Morgan repostes with <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d10 <b>Justice</b> \"The weed of crime bears bitter fruit\" + <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d6 <b><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></b> \"Every rose has its thorn\" + <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>'s d6 <b>Vicious</b> + his own d10 <b>Angry</b>, but comes up with a mere <b>7</b>, with a complication.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">What happened to us? We used to be friends. We hung out. Had fun. And I never mentioned all the shady shit you did. Didn't mention it to your father. Didn't mention it to the FBI. And you come in here on this shitty day and you pull this? Well, fuck you, <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>. Fuck you.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">ORSON</a></dt>\n<dd class=\"dialogue\">What happened to me? I found out that my <i>friend</i> was an FBI agent who'd been <i>lying</i> to me for years.</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a> storms out.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">MARCUS</a></dt>\n<dd class=\"dialogue\">Yes. Back to important matters.</dd>\n</dl>\n\n\n\n<h2 class=\"full-slugline\">INT. FBI HEADQUARTERS</h2>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/rob.html\">ROB</a></dt>\n<dd class=\"dialogue\">I need an honest answer. How long has <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> known about your powers?</dd>\n</dl>\n\n<p class=\"action\"><i>Trouble has <b>14</b>. Juan rolls <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a>'s d8 <b>Truth</b> \"Not everyone needs to hear the truth\" + b.<a class=\"weave-link\" href=\":weave:/characters/rob.html\">rob</a> + <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a>'s d8 <b>Smartass</b> + (spending a plot point) <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a>'s d8 <b>Likeable</b>, but comes up with just a <b>9</b>.</i></p>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a> opens his mouth to speak, then thinks better of it. He smiles nervously.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/rob.html\">ROB</a></dt>\n<dd class=\"dialogue\">You know you're not helping <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> or yourself right now.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/barry.html\">BARRY</a></dt>\n<dd class=\"dialogue\">It's not his fault. He was trying to protect me. He's a good guy!</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/rob.html\">ROB</a></dt>\n<dd class=\"dialogue\">Believe me, <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a>, I know that he's a good guy. I know. But perhaps the job we've given to him was not one he was qualified to do.</dd>\n</dl>\n\n\n\n<h2 class=\"full-slugline\">INT. <a class=\"weave-link\" href=\":weave:/characters/ada.html\">ADA</a>'S DINNER TABLE</h2>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> and <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> are eating with <a class=\"weave-link\" href=\":weave:/characters/ada.html\">Ada</a>.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">I love this sauce, Mrs. Meyer. Thank you for inviting me tonight.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">It's been so long since I've seen anyone. Have you seen <a class=\"weave-link\" href=\":weave:/characters/orson.html\">Orson</a>, lately?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">Yes, rather a lot. There was a mixup and my cousin sent a package to his house by mistake.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">One of your cousins from Italy?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">Yes, but he lives further inland than my family.</dd>\n</dl>\n\n<p class=\"action\"><i>Seth wants to catch <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> in her lies, so rolls <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s d12 <b>Truth</b> \"No one keeps secrets from me\" + (challenged) <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s d6 <b><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a></b> \"must be protected from this craziness\" + <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s d10 <b>Telepathy</b> for <b>15</b>. <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> doesn't want to get caught, so rolls <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d10 <b>Duty</b> \"Whatever it takes\" + (challenged) <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d8 <b><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a></b> \"I left her to help the crown\" + <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d6 <b>Telepathy</b> for <b>13</b>, plus a plot point brings it to <b>18</b>, but still with a complication.</i></p>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> peers to see <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s memories, but instead she gets nothing. She blinks, unused to this. Is <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> blocking her?</p>\n\n<p class=\"action\"><i><a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> rerolls her pool and hands a d8 <b>Insecure</b> to <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">It's been too long since we did this, right? Too long away from each other, since we caught up.</dd>\n</dl>\n\n<p class=\"action\"><i>Seth tries <b>Stress Relief</b>; <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s pool has <b>10</b>. <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s d6 <b>Duty</b> \"My parents sacrificed to give me this opportunity\" + <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s d6 <b><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a></b> \"must be protected from this craziness\" + <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s d8 <b>On a Mission</b> gets <b>12</b>. <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s <b>Exhausted</b> sinks into her growth pool.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">CHAVA</a></dt>\n<dd class=\"dialogue\">So let's make this a standing date. Let's get the three of us together and catch up. Every week?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">Yeah. I'd like that.</dd>\n</dl>\n\n\n\n<h2 class=\"full-slugline\">INT. FBI HEADQUARTERS</h2>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> is in <a class=\"weave-link\" href=\":weave:/characters/rob.html\">Rob</a>'s office.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/rob.html\">ROB</a></dt>\n<dd class=\"dialogue\">The 323-8. How do you know about that?</dd>\n</dl>\n\n<p class=\"action\"><i>Trouble has <b>9</b>. <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d10 <b>Duty</b> \"Whatever it takes\" + <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d8 <b><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></b> \"Powerful ally\" + <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d8 <b>Sneaky</b> gets <b>9</b>, and a plot point brings it to <b>14</b>.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">I was paired with one of your agents for months. I followed him on missions, I aided him in his duties as he did mine. Did you expect me to learn nothing in that time?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/rob.html\">ROB</a></dt>\n<dd class=\"dialogue\">OK. But you do understand you have no authority to use that code?</dd>\n</dl>\n\n<p class=\"action\"><i>Trouble has <b>13</b>. <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d10 <b>Duty</b> \"Whatever it takes\" + <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d8 <b><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a></b> \"Powerful ally\" + <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s d8 <b>Sneaky</b> has <b>17</b>.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">But would you rather the police were in posessession of that alien box, or that you let me use your code?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/rob.html\">ROB</a></dt>\n<dd class=\"dialogue\">Alien box?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a></dt>\n<dd class=\"dialogue\">The box <a class=\"weave-link\" href=\":weave:/characters/denali.html\">Denali</a> sent me.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/rob.html\">ROB</a></dt>\n<dd class=\"dialogue\">I have no record of this. Was it cleared?</dd>\n</dl>\n\n\n\n<h2 class=\"full-slugline\">INT. HOSPITAL ROOM</h2>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> and <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a> stand at the foot of the bed.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">MARCUS</a></dt>\n<dd class=\"dialogue\">The FBI can't help. But our organization can.</dd>\n</dl>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> is smiling in spite of herself.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">MARCUS</a></dt>\n<dd class=\"dialogue\">But as much as I'd like to, this cannot be done out of the goodness of our hearts. You'll be exposed to highly classified information.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/sam.html\">SAM</a></dt>\n<dd class=\"dialogue\">We're doing great things, little brother. You'll see. We can help you recover and you can help us accomplish… great things.</dd>\n</dl>\n\n<p class=\"action\"><i>David wants <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> to convince her brother to join up, so he rolls <a class=\"weave-link\" href=\":weave:/characters/sam.html\">sam</a>.duty + (challenged) <a class=\"weave-link\" href=\":weave:/characters/sam.html\">sam</a>.r + <a class=\"weave-link\" href=\":weave:/characters/sam.html\">sam</a>.big-sister + <a class=\"weave-link\" href=\":weave:/characters/sam.html\">sam</a>.manipulative for a total of <b>16</b>. Andrew counters with <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>'s d12 <b>Justice</b> \"I am the scales of justice\" + <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>'s d10 <b><a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a></b> \"is a lost soul\" + <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>'s d8 <b>Power</b> \"With great power comes great responsibility\" for <b>10</b>.</i></p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">What about <a class=\"weave-link\" href=\":weave:/extras/timothy_simmons.html\">Timothy Simmons</a>? How do I know I'm not just the next experiment?</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/sam.html\">SAM</a></dt>\n<dd class=\"dialogue\">There are things you don't know about that situation. And others. When you're in, you'll be able to see the truth.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">And if I don't like the truth? I want a way out. I was assurances.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/marcus.html\">MARCUS</a></dt>\n<dd class=\"dialogue\">Fine.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/sam.html\">SAM</a></dt>\n<dd class=\"dialogue\">It'll be better. You'll see.</dd>\n</dl>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">Alright. Alright, I'm in.</dd>\n</dl>\n\n\n<p class=\"comment\">TAGS</p>\n\n<h2 class=\"full-slugline\">EXT. STREET</h2>\n\n<p class=\"action\">A blur stops, and <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a> pulls the student ID from his pocket.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/barry.html\">BARRY</a></dt>\n<dd class=\"dialogue\"><a class=\"weave-link\" href=\":weave:/characters/claudia.html\">Claudia</a>, where are you?</dd>\n</dl>\n\n<p class=\"action\">He speeds away.</p>\n\n\n\n<h2 class=\"full-slugline\">INT. <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">EIRWYN</a>'S HOUSE</h2>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> drinks a scotch.</p>\n\n<p class=\"action\"><i><a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> wants to increase <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a>'s relationship with <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>. Target is set at <b>6</b>; she gets an <b>11</b>, and up it goes.</i></p>\n\n\n\n<h2 class=\"full-slugline\">INT. HOSPITAL ROOM</h2>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> intercepts the duty nurse as she leaves the room. We see the memories of all the people coming and going around her head as <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> smiles and makes small talk we don't see. <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a> enters, notes that <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> is asleep, and sets about tidying up. She replaces the old flowers with a new bunch– and as she touches the vase we hear a snippet of conversation from earlier. She shifts a chair back to make room- and we see <a class=\"weave-link\" href=\":weave:/characters/barry.html\">Barry</a> standing from it after being told off. She smooths out the bedsheet– and we see <a class=\"weave-link\" href=\":weave:/characters/marcus.html\">Marcus</a> and <a class=\"weave-link\" href=\":weave:/characters/sam.html\">Sam</a> looming over <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>. She slumps into the chair next to the bed and puts her head down on <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>'s side. She cries softly.</p>\n\n<p class=\"action\"><i>Seth wants to increase <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s relationship with <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a>, but David rolls an <b>18</b> as the target. <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>'s pool manages a <b>17</b>, so she steps back her relationship with <b><a class=\"weave-link\" href=\":weave:/characters/bao.html\">Bao</a></b>. She also rewrites some statements: <a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> \"is trapped by his past mistakes,\" while the \"Powerful hold too tightly to their toys\" and <a class=\"weave-link\" href=\":weave:/characters/eirwyn.html\">Eirwyn</a> \"should have told me the truth\".</i></p>\n\n<p class=\"action\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">Richard</a> stirs. He notices <a class=\"weave-link\" href=\":weave:/characters/chava.html\">Chava</a>, squeezes her, and a tear runs down his face. He loses it, and the tears suddenly gush forth.</p>\n\n<dl>\n<dt class=\"character\"><a class=\"weave-link\" href=\":weave:/characters/richard.html\">RICHARD</a></dt>\n<dd class=\"dialogue\">I think I sold my soul to the devil today.</dd>\n</dl>\n\n\n</div>\n",
+        "metadata": {
+          "title": "Cages",
+          "summary": "Everyone visits Richard in the hospital.",
+          "season": "2",
+          "episode": "4",
+          "airdate": "2016-02-15",
+          "director": "David Burk",
+          "replaces": "s2e4|s02e04|Cages"
         }
       }
     }
