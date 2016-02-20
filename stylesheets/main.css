@@ -123,8 +123,30 @@ article.episode p.action i:only-child {
   padding: .3em;
 }
 
+article.episode p.action.current i:only-child {
+  background: yellow;
+}
+
 .metadata {
   display: none;
+}
+
+article.episode .current {
+  position: relative;
+}
+
+article.episode .current:before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border: .2em solid yellow;
+  top: -.2em;
+  left: -.2em;
+  background: yellow;
+  z-index: -10;
+  transform: rotate(-.5deg);
 }
 
 #supporting-documents {

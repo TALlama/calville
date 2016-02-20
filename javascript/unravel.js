@@ -46,7 +46,7 @@ $.extend(Unravel.Filament.prototype, {
 });
 
 Unravel.Episode = {
-  pathRegex: /episodes\/(s(\d+)e(\d+))/
+  pathRegex: /episodes\/(s(\d+)e(\d+))[^#]*(?:#s(\d+)(?:l(\d+))?)?/
 };
 
 Unravel.Index = {
