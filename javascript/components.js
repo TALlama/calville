@@ -281,7 +281,7 @@ var EpisodeDisplay = React.createClass({
   },
   recordLocation: function recordLocation() {
     if (this.props.recordLocations === false) return;
-    
+
     history.pushState(this.state, '', this.urlForLocation(this.state));
   },
   urlForLocation: function urlForLocation(state) {
@@ -439,15 +439,18 @@ var SupportingDocument = React.createClass({
     var style = { transform: transform, WebkitTransform: transform, zIndex: this.state.z };
 
     var md = ['Status', 'Actor', 'Player'].map(function (key) {
-      return [React.createElement(
+      var value = metadata[key.toLowerCase()];
+      return value ? [React.createElement(
         'dt',
         null,
         key
       ), React.createElement(
         'dd',
         null,
-        metadata[key.toLowerCase()]
-      )];
+        value
+      )] : null;
+    }).filter(function (item) {
+      return item;
     });
 
     return React.createElement(
